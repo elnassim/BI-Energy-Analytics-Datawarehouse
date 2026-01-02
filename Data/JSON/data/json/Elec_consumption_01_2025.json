@@ -1,0 +1,3832 @@
+[
+  {
+    "id_region": "REG01",
+    "batiments": [
+      {
+        "id_batiment": "BAT001",
+        "type_energie": "electricite",
+        "unite": "KWh",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 101.895
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 112.458
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 112.865
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 161.527
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 29.051
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 76.69
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 123.108
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 79.639
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 23.402
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 185.174
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 157.29
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 75.108
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 130.093
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 164.365
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 61.272
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 160.541
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 158.031
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 158.031
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 34.008
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 150.222
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 67.75
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 192.695
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 77.864
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 21.983
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 51.065
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 100.627
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 191.936
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": 164.09
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 107.445
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 132.909
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 186.908
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 158.51
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 132.798
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 157.3
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 172.704
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 128.204
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 98.005
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": 176.048
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": 90.243
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 85640.91
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": 37.581
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 145.443
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 167.591
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 64.644
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 181.461
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": -3.105
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 23.018
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 185.014
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 42.818
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 42.818
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 163.23
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 191.274
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 142.216
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 159.425
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 120.624
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 54.606
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 42.478
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 49.476
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 158.526
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 101.375
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 102.076
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 160.19
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 80.815
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 164.126
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 159.585
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 83.562
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 70.266
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": 175.543
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 181.86
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": -4.218
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 108.167
+          }
+        ]
+      },
+      {
+        "id_batiment": "BAT002",
+        "type_energie": "electricite",
+        "unite": "m3",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 107.887
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 68.447
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 22.303
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 49.847
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 186.569
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 66.724
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 103.97
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 78287.996
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 98.348
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 149.519
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 139.503
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 197.236
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 90760.965
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 162.242
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 31.678
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 51.325
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 181.604
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 131.055
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 131.172
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 46.052
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 48.714
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 125.782
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 139.267
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 196.98
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 85.641
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": 115.003
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 116.61
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 81.479
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 150.89
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 129.884
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 114.781
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 100.36
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 83.269
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 77.845
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 32.501
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": 155.83
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": 64680.209
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 122.568
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": 150.557
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 112.258
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 112.258
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 35.255
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 145.281
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 178.349
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 64.309
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 133.715
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 40.119
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 135.747
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 188.835
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 52.145
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": -4.864
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 181.899
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 121.194
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 91339.495
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 158.738
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 191.044
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 74.904
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 90.977
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 71.058
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 98.787
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 125.436
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 99.39
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 154.002
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 22.976
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 141.829
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 33.623
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 60.471
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 198.223
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 198.223
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": 88.585
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 165.487
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 57.763
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 32.906
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id_region": "REG02",
+    "batiments": [
+      {
+        "id_batiment": "BAT003",
+        "type_energie": "electricite",
+        "unite": "KWh",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 102.564
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 42.61
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 158.558
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 60.589
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 104.275
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 50.696
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 95.773
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 194.936
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 195.474
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 90.256
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 145.326
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 90.679
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 28.496
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 32.327
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 64.518
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 79.992
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 105.442
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 98.299
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 113.989
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 123.781
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 123.781
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 72.128
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 122.591
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 120.607
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 179.874
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 126.297
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 46.304
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": -5.843
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 30.178
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 193.091
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 155.741
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 118.932
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 90.797
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 108.297
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 112.425
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 27.49
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 190.969
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": 182.859
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": 159.558
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 88.162
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": 40.171
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 172.443
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 154.075
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 146.756
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 157.445
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 97.236
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 188.694
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 83.205
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 175.264
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 150.633
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 150.927
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 24.868
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 24.868
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 31.643
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 156.419
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 139.365
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 161.724
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 82.137
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 93.298
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 196.619
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 115.912
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 151.145
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 107.215
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 66.647
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 172.665
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 48.643
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 180.856
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 87.561
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 69.258
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": 142.094
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 130.987
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 170.113
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 0.0
+          }
+        ]
+      },
+      {
+        "id_batiment": "BAT004",
+        "type_energie": "electricite",
+        "unite": "KWh",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 133.257
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 75.535
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 175.011
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 131.125
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 168.864
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": -1.598
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 140.419
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 153.48
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 30.848
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 173.178
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 135.227
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 168.746
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 91.97
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 98.718
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 62.919
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 62.397
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 0.0
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 119.903
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 117.6
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 90.459
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 199.299
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 0.0
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 104.618
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 134.786
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 39.591
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 99.967
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 99.967
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 52.07
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 52.07
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 63913.535
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 152.803
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 94.426
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 36.746
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 86.539
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 63.755
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 139.895
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": 41.675
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 0.0
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": 131.848
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 42.412
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 98.245
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 87.473
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 158.023
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 119.831
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 119.831
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 124.2
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 129.739
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 182.877
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 100.196
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 98.392
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 110.785
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 102.743
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 163.408
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 174.098
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 104.082
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 129.179
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 160.144
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 173.708
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 94.407
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 124.947
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 124.947
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 78.968
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 49.402
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 132.587
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 184.588
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 56.898
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 60.992
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 127.882
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 78.023
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": 78.928
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 34.736
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 124.144
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id_region": "REG03",
+    "batiments": [
+      {
+        "id_batiment": "BAT005",
+        "type_energie": "electricite",
+        "unite": "KWh",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 42.626
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 89.06
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 113.767
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 166.785
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 52.335
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 144.1
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 192.47
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 57764.057
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 63207.458
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 79.287
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": -1.352
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 129.013
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 144.74
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 167.02
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 103.502
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 33.441
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 45.572
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 189.57
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 46.306
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 153.931
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 145.459
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 174.547
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 87.241
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 98.587
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 127.696
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 60.8
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": 61.007
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 99.816
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 124.937
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 181.782
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 98.189
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 20.576
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 133.595
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 190.771
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 190.771
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 140.55
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 114.822
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": 142.215
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": -1.038
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 53.577
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 166.432
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 166.432
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 111.244
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 70355.791
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 108.178
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 132.148
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 71409.886
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 65.034
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 0.0
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 87.532
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 63979.99
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 73.062
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 151.343
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 82.644
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 94.236
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 104.928
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 121.036
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 121.036
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": -5.15
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 168.184
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 98.435
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 134.45
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 143.446
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 112.412
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 77.317
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 196.442
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 117.518
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 101.72
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 122.531
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 183.324
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": 178.114
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 68.416
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 34.939
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 174.055
+          }
+        ]
+      },
+      {
+        "id_batiment": "BAT006",
+        "type_energie": "electricite",
+        "unite": "m3",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 30.78
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 133.828
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 192.62
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 28.633
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 174.969
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 141.192
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 131.431
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 132.094
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 80.037
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 87.354
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 161.53
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 145.983
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 98.936
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 160.681
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": -6.277
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 159.522
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 183.893
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 152.284
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 175.374
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 178.551
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 51.415
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 190.599
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 25.151
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 27.134
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": 97.514
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 32.053
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 76.793
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 76.793
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 123.421
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 60.252
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 80.4
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 55.214
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 71.717
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 152.235
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 31.361
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": 165.794
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": -5.937
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 47.226
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": 29.416
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 145.35
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 76.238
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 134.944
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 71.798
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 47.166
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 70.818
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 121.25
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": -0.941
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 116.285
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 42.467
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 82736.758
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 102.143
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 88.227
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 118.642
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 75.123
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 122.71
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 26.945
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": -9.397
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 143.937
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 109.923
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 140.965
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 169.644
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 133.226
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 151.421
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 22.162
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 128.607
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 132.753
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 150.643
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": 167.363
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 40.144
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 142.49
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 94.327
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id_region": "REG04",
+    "batiments": [
+      {
+        "id_batiment": "BAT007",
+        "type_energie": "electricite",
+        "unite": "m3",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 65.711
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 118.64
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 118.64
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 181.614
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 121.065
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 51.64
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 74.714
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 171.021
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 103.01
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 168.983
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 126.702
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 44.414
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 160.497
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 102.636
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 123.992
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 90.995
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 190.712
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 41.059
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 50.727
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 41.31
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 198.535
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 121.748
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 185.456
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 66.585
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 162.018
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 190.957
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 172.595
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": 25.778
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 123.754
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 85.618
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 91.319
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": -4.029
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 89.34
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 151.592
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 102.347
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 192.801
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 55.536
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": -4.055
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": 183.813
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 78195.151
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": 59.329
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 31.108
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 174.032
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 106.563
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 72.523
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 162.71
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 168.415
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 67883.852
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 24.46
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 28.931
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 59.071
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 140.979
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 37.3
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 170.812
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 170.812
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 31.6
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 29.523
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 161.87
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 31.996
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 47.24
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 98.773
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 38.402
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 114.148
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 23.985
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 194.739
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 146.594
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 40.369
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 154.046
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 66.153
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 55.48
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 96.591
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 29.302
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 126.0
+          }
+        ]
+      },
+      {
+        "id_batiment": "BAT008",
+        "type_energie": "electricite",
+        "unite": "m3",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 85.408
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 100.867
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 124.492
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 67058.457
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 188.752
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 55.208
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 131.605
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 195.512
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 98.18
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 153.615
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 153.615
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 103.394
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 174.899
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 164.597
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 141.056
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 44.743
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 42.912
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 128.404
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 104.215
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 155.492
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 179.443
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 137.858
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 130.992
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 64.079
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 138.785
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 63.143
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 45.416
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": 97.507
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": -1.839
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 197.571
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 27.429
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 174.531
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 86.96
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 192.901
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 182.454
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 161.464
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 57.405
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 86663.821
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": 90.786
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 53.017
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 156.527
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 58.885
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 199.845
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 178.277
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 60.965
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 87.915
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 95.395
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 70283.76
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 99.45
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 58.231
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 25.24
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 151.229
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 85.144
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 157.621
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 77.376
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 90797.125
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 52.657
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 73.64
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 64.646
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 147.684
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 102.223
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 148.238
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 45.326
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 109.769
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 93.088
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 95.258
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 25.663
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 164.612
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 121.364
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 31.638
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id_region": "REG05",
+    "batiments": [
+      {
+        "id_batiment": "BAT009",
+        "type_energie": "electricite",
+        "unite": "KWh",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 32.3
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 60.362
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 138.888
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 82.067
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 188.12
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 54.096
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": 50.232
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 87.582
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 20.048
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 61.483
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 61.483
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 20.74
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 39.178
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 37.777
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 187.95
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 90.037
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 177.759
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 75.237
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 114.495
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 74.306
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 77.375
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 152.462
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 92.946
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 191.14
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 138.144
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 61.611
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": 111.623
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 166.28
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 87.02
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 121.65
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 167.066
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 157.218
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": 30.565
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 122.181
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 27.374
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 37.286
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": 174.109
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": 114.425
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 168.957
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": -0.746
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": 142.791
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 26.844
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 56.404
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 24.178
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 166.06
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 97.106
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 170.845
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 134.955
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 141.207
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 26.724
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 82.13
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 66.653
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 91.365
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 141.693
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 127.367
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 156.864
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 174.685
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 162.109
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 178.931
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 45.696
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 196.223
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 102.107
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 111.394
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 158.618
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 158.618
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 137.918
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 96.427
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": 86.87
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 194.238
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 149.127
+          },
+          {
+            "compteur_id": "ELEC_001",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 102.18
+          }
+        ]
+      },
+      {
+        "id_batiment": "BAT010",
+        "type_energie": "electricite",
+        "unite": "m3",
+        "date_generation": "2025-01-04",
+        "mesures": [
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 00:00:00",
+            "consommation": 79.443
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 01:00:00",
+            "consommation": 128.091
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 02:00:00",
+            "consommation": 116.551
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 03:00:00",
+            "consommation": 33.051
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 04:00:00",
+            "consommation": 155.692
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 05:00:00",
+            "consommation": 144.852
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 06:00:00",
+            "consommation": 85.639
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 07:00:00",
+            "consommation": -3.198
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 08:00:00",
+            "consommation": 135.744
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 09:00:00",
+            "consommation": 98.446
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 10:00:00",
+            "consommation": 55.322
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 11:00:00",
+            "consommation": 166.78
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 12:00:00",
+            "consommation": 121.547
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 13:00:00",
+            "consommation": 181.26
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 14:00:00",
+            "consommation": 116.937
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 15:00:00",
+            "consommation": 184.727
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 16:00:00",
+            "consommation": 180.84
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 17:00:00",
+            "consommation": 174.643
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 18:00:00",
+            "consommation": 128.113
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 19:00:00",
+            "consommation": 94.827
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 20:00:00",
+            "consommation": 155.727
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 21:00:00",
+            "consommation": 172.902
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 22:00:00",
+            "consommation": 63.639
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-01 23:00:00",
+            "consommation": 136.543
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 00:00:00",
+            "consommation": 168.757
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 01:00:00",
+            "consommation": 121.802
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 02:00:00",
+            "consommation": 40.574
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 03:00:00",
+            "consommation": 145.17
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 04:00:00",
+            "consommation": 189.089
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 184.637
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 05:00:00",
+            "consommation": 184.637
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 06:00:00",
+            "consommation": 153.761
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 07:00:00",
+            "consommation": 102.435
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 08:00:00",
+            "consommation": null
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 09:00:00",
+            "consommation": 122.318
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 10:00:00",
+            "consommation": 143.579
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 11:00:00",
+            "consommation": 177.365
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 12:00:00",
+            "consommation": 171.346
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 13:00:00",
+            "consommation": -6.781
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 109.429
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 14:00:00",
+            "consommation": 109.429
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 15:00:00",
+            "consommation": 45.059
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 16:00:00",
+            "consommation": -8.82
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 17:00:00",
+            "consommation": 84.654
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 21.107
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 18:00:00",
+            "consommation": 21.107
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 19:00:00",
+            "consommation": 42.673
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 20:00:00",
+            "consommation": 22.39
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 21:00:00",
+            "consommation": 153.869
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 22:00:00",
+            "consommation": 174.521
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-02 23:00:00",
+            "consommation": 33.052
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 00:00:00",
+            "consommation": 123.99
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 01:00:00",
+            "consommation": 149.797
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 02:00:00",
+            "consommation": 34.81
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 03:00:00",
+            "consommation": 27.998
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 04:00:00",
+            "consommation": 102.733
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 05:00:00",
+            "consommation": 170.624
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 06:00:00",
+            "consommation": 80799.656
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 24.385
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 07:00:00",
+            "consommation": 24.385
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 08:00:00",
+            "consommation": 132.48
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 09:00:00",
+            "consommation": 148.139
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 10:00:00",
+            "consommation": 195.236
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 11:00:00",
+            "consommation": 159.202
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 12:00:00",
+            "consommation": 133.481
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 13:00:00",
+            "consommation": 32.891
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 14:00:00",
+            "consommation": 124.772
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 15:00:00",
+            "consommation": 135.052
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 16:00:00",
+            "consommation": 61.647
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 17:00:00",
+            "consommation": 56.65
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 18:00:00",
+            "consommation": 153.982
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 19:00:00",
+            "consommation": 60.893
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 20:00:00",
+            "consommation": 71.485
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 21:00:00",
+            "consommation": 106.616
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 22:00:00",
+            "consommation": 33.224
+          },
+          {
+            "compteur_id": "ELEC_002",
+            "date_mesure": "2025-01-03 23:00:00",
+            "consommation": 147.858
+          }
+        ]
+      }
+    ]
+  }
+]

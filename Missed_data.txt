@@ -1,24 +1,88 @@
-Regions table : 
+SQL DATABASE ISSUES:
+====================
+
+Regions table :
 - missed value nom_region
 
 Batiments table :
-- surface_m2 0 or 1, too small 
+- surface_m2 0 or 1, too small
 - extra space in batiment_id
 - 'unknown' type in type_batiment
 
-Clients table : 
+Clients table :
 - invalid email (should be name@gmailcom)
-- telephone NULL 
+- telephone NULL
 
 Contrats table :
 - Missing date_fin
 - end date before start date
 
-Compteurs table : 
-- Wrong unit:
+Compteurs table :
+- Wrong unit
 
-Factures table : 
+Factures table :
 - Costs higher than the total
 
-paiements table :
+Paiements table :
 - Invalid statut (paid)
+
+
+JSON ENERGY CONSUMPTION FILES ISSUES:
+======================================
+
+Total Issues: 300 (100 per file across 3 files)
+
+Elec_consumption_01_2025.json (100 issues):
+- 25 Duplicate measurements (same timestamp appears twice)
+- 25 Missing consumption values (null)
+- 20 Negative consumption values
+- 5 Wrong units (m3 instead of KWh)
+- 20 Impossible values (extremely high: 50,000-99,999 KWh)
+- 5 Zero consumption (suspicious for active buildings)
+
+Eau_consumption_01_2025.json (100 issues):
+- 25 Duplicate measurements (same timestamp appears twice)
+- 25 Missing consumption values (null)
+- 20 Negative consumption values
+- 5 Wrong units (KWh instead of m3)
+- 20 Impossible values (extremely high: 5,000-9,999 m3)
+- 5 Zero consumption (suspicious for active buildings)
+
+Gaz_consumption_01_2025.json (100 issues):
+- 25 Duplicate measurements (same timestamp appears twice)
+- 25 Missing consumption values (null)
+- 20 Negative consumption values
+- 5 Wrong units (L instead of m3)
+- 20 Impossible values (extremely high: 5,000-9,999 m3)
+- 5 Zero consumption (suspicious for active buildings)
+
+Distribution:
+- Issues are spread across all 5 regions (REG01-REG05)
+- Issues are distributed across multiple buildings (BAT001-BAT010)
+- Detailed log available in: Data/JSON/data/json/injected_issues_log.json
+
+
+CSV ENVIRONMENTAL REPORTS ISSUES:
+==================================
+
+Total Issues: 30 (in env_reports_01_2025.csv)
+
+Issue Breakdown:
+- 10 Missing CO2 emission values (empty field)
+- 10 Missing recycling rate values (empty field)
+- 5 Invalid recycling rates (values > 1, e.g., 1.28, 1.66, 1.64, 1.51, 1.47)
+- 5 Wrong date formats:
+  * YYYY/MM/DD format (e.g., 2025/01/13)
+  * MM/DD/YYYY format (e.g., 01/14/2025)
+  * Month Name format (e.g., Jan 13, 2025)
+
+Sample Issue Rows:
+- Row 68: Missing taux_recyclage
+- Row 123: Invalid taux_recyclage = 1.66
+- Row 240: Wrong date format '2025/01/13'
+- Row 277: Missing taux_recyclage
+- Row 552: Missing emission_CO2_kg
+
+Distribution:
+- Issues spread across all regions and buildings
+- Detailed log available in: Data/CSV/csv_injected_issues_log.txt
