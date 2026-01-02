@@ -1,0 +1,24 @@
+Regions table : 
+- missed value nom_region
+
+Batiments table :
+- surface_m2 0 or 1, too small 
+- extra space in batiment_id
+- 'unknown' type in type_batiment
+
+Clients table : 
+- invalid email (should be name@gmailcom)
+- telephone NULL 
+
+Contrats table :
+- Missing date_fin
+- end date before start date
+
+Compteurs table : 
+- Wrong unit:
+
+Factures table : 
+- Costs higher than the total
+
+paiements table :
+- Invalid statut (paid)
