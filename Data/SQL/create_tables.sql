@@ -7,7 +7,7 @@ USE energy_analytics_dw_ops;
 
 DROP TABLE IF EXISTS paiements;
 DROP TABLE IF EXISTS factures;
-DROP TABLE IF EXISTS mesures_compteur;
+
 DROP TABLE IF EXISTS compteurs;
 DROP TABLE IF EXISTS contrats;
 DROP TABLE IF EXISTS clients;

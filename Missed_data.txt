@@ -1,88 +1,221 @@
-SQL DATABASE ISSUES:
-====================
+================================================================================
+DATA QUALITY ISSUES DOCUMENTATION
+Energy Analytics Data Warehouse Project
+================================================================================
 
-Regions table :
-- missed value nom_region
+PROJECT SCOPE:
+- 6 Regions (REG01-REG06)
+- 3 Months (January-March 2025 / Q1)
+- 3 Energy Types (Electricity, Water, Gas)
+- Total Files: 23 (9 JSON + 6 CSV + 8 SQL)
+- Total Issues: 1,080+
 
-Batiments table :
-- surface_m2 0 or 1, too small
-- extra space in batiment_id
-- 'unknown' type in type_batiment
+================================================================================
+SQL DATABASE ISSUES
+================================================================================
 
-Clients table :
-- invalid email (should be name@gmailcom)
-- telephone NULL
+Database: energy_analytics_dw_ops
 
-Contrats table :
-- Missing date_fin
-- end date before start date
+Regions table (6 rows):
+- Missing value: nom_region = NULL (REG06)
 
-Compteurs table :
-- Wrong unit
+Batiments table (~40 rows):
+- Invalid surface_m2: values of 0 or 1 (too small for buildings)
+- Invalid surface_m2: extremely large values (999998, 882218)
+- Extra whitespace: batiment_id with trailing spaces (BAT009 , BAT016 , BAT026 )
+- Unknown type: type_batiment = 'unknown'
 
-Factures table :
-- Costs higher than the total
+Clients table:
+- Invalid email: missing '@' character (name@gmailcom)
+- Missing phone: telephone = NULL
 
-Paiements table :
-- Invalid statut (paid)
+Contrats table:
+- Missing date: date_fin = NULL
+- Invalid dates: date_fin < date_debut (end before start)
+
+Compteurs table:
+- Wrong unit: incorrect measurement units
+
+Factures table:
+- Invalid amounts: cout_energie + autres_couts > montant_ttc
+
+Paiements table:
+- Invalid status: statut = 'paid' (should be 'paye' in French)
 
 
-JSON ENERGY CONSUMPTION FILES ISSUES:
-======================================
+================================================================================
+JSON ENERGY CONSUMPTION FILES - 900 ISSUES TOTAL
+================================================================================
 
-Total Issues: 300 (100 per file across 3 files)
+Period: January - March 2025 (3 months)
+Files: 9 (3 energy types × 3 months)
+Issues per file: 100
+Total issues: 900
 
-Elec_consumption_01_2025.json (100 issues):
+FILES:
+1. Elec_consumption_01_2025.json (January, Electricity)
+2. Elec_consumption_02_2025.json (February, Electricity)
+3. Elec_consumption_03_2025.json (March, Electricity)
+4. Eau_consumption_01_2025.json (January, Water)
+5. Eau_consumption_02_2025.json (February, Water)
+6. Eau_consumption_03_2025.json (March, Water)
+7. Gaz_consumption_01_2025.json (January, Gas)
+8. Gaz_consumption_02_2025.json (February, Gas)
+9. Gaz_consumption_03_2025.json (March, Gas)
+
+ISSUE BREAKDOWN (per file = 100 issues):
 - 25 Duplicate measurements (same timestamp appears twice)
 - 25 Missing consumption values (null)
-- 20 Negative consumption values
-- 5 Wrong units (m3 instead of KWh)
-- 20 Impossible values (extremely high: 50,000-99,999 KWh)
+- 20 Negative consumption values (range: -10 to -0.5)
+- 5 Wrong units:
+  * Electricity: m3 instead of KWh
+  * Water: KWh instead of m3
+  * Gas: L (liters) instead of m3
+- 20 Impossible values (outliers):
+  * Electricity: 50,000-99,999 KWh
+  * Water/Gas: 5,000-9,999 m3
 - 5 Zero consumption (suspicious for active buildings)
 
-Eau_consumption_01_2025.json (100 issues):
-- 25 Duplicate measurements (same timestamp appears twice)
-- 25 Missing consumption values (null)
-- 20 Negative consumption values
-- 5 Wrong units (KWh instead of m3)
-- 20 Impossible values (extremely high: 5,000-9,999 m3)
-- 5 Zero consumption (suspicious for active buildings)
-
-Gaz_consumption_01_2025.json (100 issues):
-- 25 Duplicate measurements (same timestamp appears twice)
-- 25 Missing consumption values (null)
-- 20 Negative consumption values
-- 5 Wrong units (L instead of m3)
-- 20 Impossible values (extremely high: 5,000-9,999 m3)
-- 5 Zero consumption (suspicious for active buildings)
+TOTAL JSON ISSUES: 900
+- 225 Duplicates
+- 225 Missing values
+- 180 Negative values
+- 180 Impossible values
+- 45 Wrong units
+- 45 Zero values
 
 Distribution:
-- Issues are spread across all 5 regions (REG01-REG05)
-- Issues are distributed across multiple buildings (BAT001-BAT010)
-- Detailed log available in: Data/JSON/data/json/injected_issues_log.json
+- Issues spread across 6 regions (REG01-REG06)
+- Issues distributed across 12 buildings (BAT001-BAT012, 2 per region)
+- Detailed log: Data/JSON/data/json/json_injected_issues_log.json
 
 
-CSV ENVIRONMENTAL REPORTS ISSUES:
-==================================
+================================================================================
+CSV ENVIRONMENTAL REPORTS - 180 ISSUES TOTAL
+================================================================================
 
-Total Issues: 30 (in env_reports_01_2025.csv)
+Period: Q1 2025 (January - March)
+Files: 6 (1 per region)
+Issues per file: 30
+Total issues: 180
 
-Issue Breakdown:
+FILES:
+1. env_reports_REG01_Q1_2025.csv (Casablanca)
+2. env_reports_REG02_Q1_2025.csv (Rabat)
+3. env_reports_REG03_Q1_2025.csv (Marrakech)
+4. env_reports_REG04_Q1_2025.csv (Tanger)
+5. env_reports_REG05_Q1_2025.csv (Berkane)
+6. env_reports_REG06_Q1_2025.csv (Laayoune)
+
+ISSUE BREAKDOWN (per file = 30 issues):
 - 10 Missing CO2 emission values (empty field)
 - 10 Missing recycling rate values (empty field)
-- 5 Invalid recycling rates (values > 1, e.g., 1.28, 1.66, 1.64, 1.51, 1.47)
-- 5 Wrong date formats:
-  * YYYY/MM/DD format (e.g., 2025/01/13)
+- 5 Invalid recycling rates (values > 1):
+  * Examples: 1.28, 1.66, 1.64, 1.51, 1.47
+  * Valid range should be: 0.00 - 1.00 (0% - 100%)
+- 5 Wrong date formats (should be YYYY-MM-DD):
   * MM/DD/YYYY format (e.g., 01/14/2025)
-  * Month Name format (e.g., Jan 13, 2025)
+  * DD-MM-YYYY format (e.g., 15-01-2025)
+  * YYYY/MM/DD format (e.g., 2025/01/13)
+  * DD.MM.YYYY format (e.g., 15.01.2025)
+  * Text format (e.g., Jan 13, 2025)
 
-Sample Issue Rows:
-- Row 68: Missing taux_recyclage
-- Row 123: Invalid taux_recyclage = 1.66
-- Row 240: Wrong date format '2025/01/13'
-- Row 277: Missing taux_recyclage
-- Row 552: Missing emission_CO2_kg
+TOTAL CSV ISSUES: 180
+- 60 Missing emissions
+- 60 Missing recycling rates
+- 30 Invalid recycling rates
+- 30 Wrong date formats
 
 Distribution:
-- Issues spread across all regions and buildings
-- Detailed log available in: Data/CSV/csv_injected_issues_log.txt
+- Issues spread across all 6 regions
+- Issues distributed across 87 unique buildings
+- Detailed log: Data/CSV/csv_injected_issues_all_log.txt
+
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+TOTAL DATA QUALITY ISSUES: 1,080+
+- SQL Database: ~10-20 issues (across 8 tables)
+- JSON Files: 900 issues (9 files × 100 issues)
+- CSV Files: 180 issues (6 files × 30 issues)
+
+ISSUE DISTRIBUTION:
+- JSON: 83.3% (900/1080)
+- CSV: 16.7% (180/1080)
+- SQL: <1% (~10-20/1080)
+
+DATA VOLUME:
+- JSON Measurements: 78,696 hourly readings
+- CSV Reports: 1,200 environmental reports
+- SQL Records: ~100+ rows across 8 tables
+- Total Regions: 6
+- Total Buildings: 87 (unique across sources)
+- Time Period: Q1 2025 (January - March)
+
+
+================================================================================
+ETL CLEANING REQUIREMENTS
+================================================================================
+
+JSON Files (900 issues to handle):
+✓ Duplicate detection: Remove 225 duplicate timestamps
+✓ NULL handling: Impute or filter 225 missing values
+✓ Negative validation: Flag/remove 180 negative consumptions
+✓ Outlier detection: Handle 180 impossible values
+✓ Unit standardization: Convert 45 wrong units
+✓ Zero consumption: Investigate 45 zero values
+
+CSV Files (180 issues to handle):
+✓ Missing data: Handle 60 missing CO2 + 60 missing rates
+✓ Range validation: Fix 30 invalid recycling rates (>1)
+✓ Date standardization: Convert 30 wrong date formats to YYYY-MM-DD
+
+SQL Database (~20 issues to handle):
+✓ NULL handling: Handle missing values
+✓ Range validation: Validate numeric fields (surface, amounts)
+✓ String cleaning: Trim whitespace from IDs
+✓ Enumeration: Standardize categorical values
+✓ Date validation: Check date_debut < date_fin
+✓ Business rules: Validate financial calculations
+
+
+================================================================================
+LOG FILES
+================================================================================
+
+1. JSON Issues Log:
+   File: Data/JSON/data/json/json_injected_issues_log.json
+   Format: JSON
+   Content: 900 issues with region, building, timestamp details
+
+2. CSV Issues Log:
+   File: Data/CSV/csv_injected_issues_all_log.txt
+   Format: Text
+   Content: 180 issues with row numbers and descriptions
+
+3. Project Summary:
+   File: Data/PROJECT_DATA_SUMMARY.md
+   Format: Markdown
+   Content: Complete project documentation
+
+
+================================================================================
+GENERATION SCRIPTS
+================================================================================
+
+JSON Data:
+- Generator: Data/JSON/generate_json_3months.py
+- Issue Injector: Data/JSON/inject_issues_all_json.py
+
+CSV Data:
+- Generator: Data/CSV/generate_csv_regional.py
+- Issue Injector: Data/CSV/inject_issues_all_csv.py
+
+
+================================================================================
+Last Updated: 2025-01-02
+Project: Energy Analytics Data Warehouse (BI Mini-Project)
+Purpose: ETL Testing with Realistic Data Quality Issues
+================================================================================
