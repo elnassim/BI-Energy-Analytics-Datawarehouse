@@ -1,0 +1,980 @@
+id_batiment;id_region;date_rapport;emission_CO2_kg;taux_recyclage;nom_batiment;type_batiment;surface_m2;annee_construction;nom_region;total_eau_m3;total_electricite_kwh;total_gaz_L
+BAT001;REG01;2025-01-02;2692;0.2;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-01-23;1448;0.42;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-01-26;1421;0.11;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-02-03;1991;0.39;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-02-04;1894;0.91;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-02-05;2655;0.17;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-02-06;1137;0.66;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-03-08;1987;0.1;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-03-12;1899;0.27;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-03-18;1264;0.14;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG01;2025-03-22;2002;0.55;Complexe commercial Al Fath;centre_commercial;7164;1995;Casablanca;0.0;0.0;0.342
+BAT001;REG03;2025-01-13;2387;0.16;Complexe commercial Al Fath;centre_commercial;7164;1995;Marrakech;0.0;0.0;0.342
+BAT001;REG03;2025-01-19;788;0.87;Complexe commercial Al Fath;centre_commercial;7164;1995;Marrakech;0.0;0.0;0.342
+BAT001;REG03;2025-02-09;106;0.86;Complexe commercial Al Fath;centre_commercial;7164;1995;Marrakech;0.0;0.0;0.342
+BAT001;REG03;2025-02-14;1816;0.17;Complexe commercial Al Fath;centre_commercial;7164;1995;Marrakech;0.0;0.0;0.342
+BAT001;REG03;2025-02-15;1011;0.65;Complexe commercial Al Fath;centre_commercial;7164;1995;Marrakech;0.0;0.0;0.342
+BAT001;REG03;2025-02-19;1399;0.91;Complexe commercial Al Fath;centre_commercial;7164;1995;Marrakech;0.0;0.0;0.342
+BAT001;REG03;2025-02-26;1409;0.8;Complexe commercial Al Fath;centre_commercial;7164;1995;Marrakech;0.0;0.0;0.342
+BAT001;REG03;2025-02-28;1667;0.82;Complexe commercial Al Fath;centre_commercial;7164;1995;Marrakech;0.0;0.0;0.342
+BAT001;REG05;2025-01-25;916;0.26;Complexe commercial Al Fath;centre_commercial;7164;1995;Berkane;0.0;0.0;0.342
+BAT001;REG05;2025-01-26;340;0.2;Complexe commercial Al Fath;centre_commercial;7164;1995;Berkane;0.0;0.0;0.342
+BAT001;REG05;2025-02-20;2640;0.67;Complexe commercial Al Fath;centre_commercial;7164;1995;Berkane;0.0;0.0;0.342
+BAT001;REG05;2025-02-22;2522;0.41;Complexe commercial Al Fath;centre_commercial;7164;1995;Berkane;0.0;0.0;0.342
+BAT001;REG05;2025-03-06;1061;0.16;Complexe commercial Al Fath;centre_commercial;7164;1995;Berkane;0.0;0.0;0.342
+BAT001;REG05;2025-03-08;1072;0.94;Complexe commercial Al Fath;centre_commercial;7164;1995;Berkane;0.0;0.0;0.342
+BAT001;REG05;2025-03-09;277;0.91;Complexe commercial Al Fath;centre_commercial;7164;1995;Berkane;0.0;0.0;0.342
+BAT002;REG01;2025-01-07;2113;0.27;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-01-18;2615;0.19;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-01-22;2283;0.28;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-02-08;1055;0.37;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-02-10;2885;0.35;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-02-21;2309;0.22;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-02-23;1138;0.37;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-03-01;2880;0.28;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-03-14;1917;0.94;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT002;REG01;2025-03-23;1755;0.28;Galerie Loukkos;centre_commercial;16821;2008;Casablanca;0.0;0.0;0.639
+BAT003;REG02;2025-01-02;1967;0.28;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-01-11;2388;0.88;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-01-13;1631;0.45;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-01-18;2488;0.29;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-02-16;1208;0.76;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-01;1779;0.39;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-03;1315;0.48;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-08;396;0.4;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-12;1952;0.28;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-15;753;0.41;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-21;1183;0.66;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-24;1251;0.88;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-27;1062;0.74;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG02;2025-03-28;362;0.24;Hangar Al Andalous;entrepot;3785;2023;Rabat;0.0;0.0;0.333
+BAT003;REG03;2025-01-02;584;0.28;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT003;REG03;2025-01-14;1693;0.6;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT003;REG03;2025-01-26;1449;0.74;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT003;REG03;2025-02-15;108;0.23;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT003;REG03;2025-02-18;2784;0.74;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT003;REG03;2025-02-20;915;0.33;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT003;REG03;2025-03-05;2336;0.44;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT003;REG03;2025-03-20;736;0.61;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT003;REG03;2025-03-25;227;0.87;Hangar Al Andalous;entrepot;3785;2023;Marrakech;0.0;0.0;0.333
+BAT004;REG02;2025-01-06;2267;0.46;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-01-09;850;0.74;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-01-12;1730;0.26;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-01-19;2397;0.45;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-01-21;627;0.18;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-01-29;663;0.33;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-02-03;354;0.84;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-02-09;1195;0.65;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-02-20;452;0.83;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-02-23;2511;0.85;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-03-18;1281;0.29;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-03-24;669;0.85;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-03-25;2351;0.7;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-03-27;2463;0.65;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-03-30;679;0.43;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT004;REG02;2025-03-31;2833;0.66;Grand Hotel Ryad;hotel;2161;2012;Rabat;0.0;0.0;0.648
+BAT005;REG03;2025-01-25;1863;0.72;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG03;2025-02-09;1549;0.27;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG03;2025-02-13;2016;0.45;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG03;2025-02-25;1940;0.61;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG03;2025-03-04;2147;0.57;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG03;2025-03-07;1185;0.53;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG03;2025-03-08;2030;0.81;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG03;2025-03-13;373;0.12;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG03;2025-03-20;703;0.78;Usine Palmier;usine;7000;2022;Marrakech;0.0;0.0;0.88
+BAT005;REG05;2025-01-05;2306;0.22;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-01-18;1114;0.81;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-02-25;1198;0.86;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-02-26;1052;0.93;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-02-27;172;0.44;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-02-28;1783;0.51;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-03-13;1896;0.9;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-03-19;2983;0.65;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-03-23;2191;0.33;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-03-26;772;0.21;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT005;REG05;2025-03-31;1187;0.58;Usine Palmier;usine;7000;2022;Berkane;0.0;0.0;0.88
+BAT006;REG03;2025-01-01;217;0.75;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-01-16;1696;0.37;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-01-17;231;0.19;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-01-18;2749;0.33;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-01-30;1727;0.36;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-02-03;1902;0.67;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-02-08;2738;0.36;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-02-23;2416;0.44;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-03-01;1995;0.88;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-03-08;2389;0.66;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT006;REG03;2025-03-11;241;0.11;Tour Central;bureau;1;2012;Marrakech;0.0;0.0;0.685
+BAT007;REG03;2025-01-10;2824;0.92;Lycee Sahara;ecole;3258;1992;Marrakech;0.0;0.0;0.788
+BAT007;REG03;2025-01-17;2846;0.26;Lycee Sahara;ecole;3258;1992;Marrakech;0.0;0.0;0.788
+BAT007;REG03;2025-01-26;2993;0.67;Lycee Sahara;ecole;3258;1992;Marrakech;0.0;0.0;0.788
+BAT007;REG03;2025-03-04;1386;0.36;Lycee Sahara;ecole;3258;1992;Marrakech;0.0;0.0;0.788
+BAT007;REG03;2025-03-18;865;0.42;Lycee Sahara;ecole;3258;1992;Marrakech;0.0;0.0;0.788
+BAT007;REG03;2025-03-22;1018;0.92;Lycee Sahara;ecole;3258;1992;Marrakech;0.0;0.0;0.788
+BAT007;REG03;2025-03-26;622;0.73;Lycee Sahara;ecole;3258;1992;Marrakech;0.0;0.0;0.788
+BAT007;REG04;2025-01-08;2075;0.12;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-01-13;1032;0.7;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-01-26;422;0.95;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-02-03;318;0.11;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-02-04;1007;0.43;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-02-15;2813;0.68;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-02-17;302;0.32;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-02-22;2792;0.82;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-02-23;279;0.45;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-02-25;1952;0.76;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-02-28;1721;0.68;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-03-03;416;0.19;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-03-04;1301;0.72;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-03-09;1089;0.58;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-03-17;2229;0.83;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-03-23;389;0.71;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT007;REG04;2025-03-27;1837;0.25;Lycee Sahara;ecole;3258;1992;Tanger;0.0;0.0;0.788
+BAT008;REG04;2025-01-08;1652;0.25;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-01-10;387;0.85;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-01-13;365;0.8;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-01-14;1381;0.76;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-01-17;978;0.41;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-01-19;1023;0.31;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-01-20;1803;0.44;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-01-30;298;0.29;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-02-04;1076;0.16;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-02-05;548;0.15;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-02-12;630;0.27;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-02-14;747;0.48;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-02-19;1206;0.37;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-02-20;676;0.14;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-02-22;351;0.67;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-03-03;2925;0.78;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-03-04;1925;0.89;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-03-14;946;0.53;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-03-19;1179;0.29;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-03-24;2713;0.4;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT008;REG04;2025-03-26;1072;0.82;College Al Majd;ecole;1996;1996;Tanger;0.0;0.0;0.986
+BAT009;REG03;2025-01-05;350;0.75;Lycee Al Fath;ecole;1511;2022;Marrakech;0.0;0.0;0.315
+BAT009;REG03;2025-01-30;1385;0.36;Lycee Al Fath;ecole;1511;2022;Marrakech;0.0;0.0;0.315
+BAT009;REG03;2025-02-25;227;0.63;Lycee Al Fath;ecole;1511;2022;Marrakech;0.0;0.0;0.315
+BAT009;REG03;2025-03-02;815;0.18;Lycee Al Fath;ecole;1511;2022;Marrakech;0.0;0.0;0.315
+BAT009;REG03;2025-03-06;2591;0.78;Lycee Al Fath;ecole;1511;2022;Marrakech;0.0;0.0;0.315
+BAT009;REG03;2025-03-24;2381;0.77;Lycee Al Fath;ecole;1511;2022;Marrakech;0.0;0.0;0.315
+BAT009;REG03;2025-03-26;110;0.7;Lycee Al Fath;ecole;1511;2022;Marrakech;0.0;0.0;0.315
+BAT009;REG05;2025-01-06;1812;0.18;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-01-11;155;0.7;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-01-13;722;0.37;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-02-09;974;0.47;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-02-15;1229;0.14;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-03-03;475;0.86;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-03-21;1635;0.47;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-03-24;386;0.19;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-03-26;2501;0.95;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT009;REG05;2025-03-31;1478;0.63;Lycee Al Fath;ecole;1511;2022;Berkane;0.0;0.0;0.315
+BAT010;REG02;2025-01-09;2703;0.41;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-01-12;2696;0.4;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-01-19;1491;0.11;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-01-22;908;0.2;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-01-28;1116;0.18;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-03-05;191;0.15;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-03-06;2076;0.31;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-03-20;692;0.25;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-03-24;2455;0.65;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-03-25;974;0.43;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG02;2025-03-31;1294;0.95;Tour Rif;bureau;779;1993;Rabat;0.0;0.0;0.211
+BAT010;REG05;2025-01-06;2553;0.57;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT010;REG05;2025-01-08;2866;0.5;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT010;REG05;2025-01-10;1376;0.11;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT010;REG05;2025-01-16;572;0.17;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT010;REG05;2025-01-29;1711;0.69;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT010;REG05;2025-02-12;2040;0.57;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT010;REG05;2025-03-10;1191;0.36;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT010;REG05;2025-03-13;1002;0.41;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT010;REG05;2025-03-16;1361;0.68;Tour Rif;bureau;779;1993;Berkane;0.0;0.0;0.211
+BAT011;REG01;2025-01-05;1011;0.35;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-01-12;403;0.45;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-01-14;453;0.18;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-01-21;1616;0.64;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-01-22;2565;0.85;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-02-02;2341;0.48;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-02-04;2323;0.65;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-02-09;1267;0.86;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-02-15;1536;0.75;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-02-18;774;0.34;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-02-25;392;0.47;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-03-03;1467;0.4;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-03-13;605;0.18;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-03-15;2569;0.45;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-03-16;1871;0.87;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-03-17;2748;0.31;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-03-21;1634;0.8;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-03-24;1059;0.54;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG01;2025-03-28;1376;0.18;Site industriel Nakhil;usine;9724;2013;Casablanca;0.0;0.0;0.701
+BAT011;REG03;2025-01-08;1271;0.18;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-02-04;154;0.67;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-02-08;2065;0.81;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-02-09;530;0.77;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-02-16;1844;0.21;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-02-23;630;0.43;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-03-09;977;0.92;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-03-13;659;0.41;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-03-17;733;0.77;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-03-25;807;0.4;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG03;2025-03-29;2204;0.45;Site industriel Nakhil;usine;9724;2013;Marrakech;0.0;0.0;0.701
+BAT011;REG06;2025-01-08;599;0.93;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-02-03;1990;0.28;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-02-13;2342;0.37;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-02-28;2677;0.42;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-03-02;1559;0.83;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-03-03;114;0.53;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-03-06;306;0.1;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-03-07;2833;0.59;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-03-19;404;0.14;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-03-20;2838;0.26;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT011;REG06;2025-03-27;1820;0.93;Site industriel Nakhil;usine;9724;2013;Laayoune;0.0;0.0;0.701
+BAT012;REG01;2025-01-09;179;0.59;Fabrique Nakhil;usine;8950;1991;Casablanca;0.0;0.0;0.614
+BAT012;REG01;2025-01-19;2398;0.19;Fabrique Nakhil;usine;8950;1991;Casablanca;0.0;0.0;0.614
+BAT012;REG01;2025-01-21;194;0.72;Fabrique Nakhil;usine;8950;1991;Casablanca;0.0;0.0;0.614
+BAT012;REG01;2025-01-23;1028;0.57;Fabrique Nakhil;usine;8950;1991;Casablanca;0.0;0.0;0.614
+BAT012;REG01;2025-02-27;2069;0.28;Fabrique Nakhil;usine;8950;1991;Casablanca;0.0;0.0;0.614
+BAT012;REG05;2025-01-21;665;0.57;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG05;2025-01-23;1916;0.25;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG05;2025-02-02;1050;0.52;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG05;2025-02-03;1468;0.92;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG05;2025-02-07;1335;0.36;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG05;2025-03-05;2875;0.79;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG05;2025-03-07;2484;0.67;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG05;2025-03-19;182;0.16;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG05;2025-03-21;1908;0.75;Fabrique Nakhil;usine;8950;1991;Berkane;0.0;0.0;0.614
+BAT012;REG06;2025-01-02;1114;0.16;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-01-10;2159;0.62;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-01-11;1251;0.88;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-01-26;2238;0.7;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-02-13;2059;0.71;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-02-16;2800;0.32;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-03-04;591;0.42;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-03-06;629;0.89;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-03-24;982;0.71;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT012;REG06;2025-03-25;1565;0.91;Fabrique Nakhil;usine;8950;1991;Laayoune;0.0;0.0;0.614
+BAT013;REG01;2025-01-04;1747;0.75;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-01-15;1721;0.25;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-01-24;563;0.84;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-01-31;410;0.35;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-02-04;763;0.91;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-02-17;310;0.14;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-02-25;413;0.88;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-03-09;1268;0.63;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-03-11;2340;0.67;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-03-16;1831;0.87;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-03-22;1143;0.41;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-03-25;559;0.77;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG01;2025-03-31;1221;0.11;Atelier Al Amal;usine;9527;2013;Casablanca;0.0;0.0;0.764
+BAT013;REG04;2025-01-01;830;0.24;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-01-13;1644;0.27;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-01-28;1186;0.62;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-01-30;1566;0.48;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-02-05;451;0.64;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-02-12;2530;0.34;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-02-17;2155;0.7;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-03-04;961;0.48;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-03-07;1284;0.7;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-03-16;475;0.86;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-03-21;1139;0.56;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-03-22;636;0.93;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT013;REG04;2025-03-27;1539;0.74;Atelier Al Amal;usine;9527;2013;Tanger;0.0;0.0;0.764
+BAT014;REG01;2025-01-08;292;0.53;Plateforme logistique Ryad;entrepot;6040;2012;Casablanca;0.0;0.0;0.433
+BAT014;REG01;2025-01-10;385;0.37;Plateforme logistique Ryad;entrepot;6040;2012;Casablanca;0.0;0.0;0.433
+BAT014;REG01;2025-02-18;611;0.53;Plateforme logistique Ryad;entrepot;6040;2012;Casablanca;0.0;0.0;0.433
+BAT014;REG01;2025-03-02;515;0.75;Plateforme logistique Ryad;entrepot;6040;2012;Casablanca;0.0;0.0;0.433
+BAT014;REG01;2025-03-04;2604;0.15;Plateforme logistique Ryad;entrepot;6040;2012;Casablanca;0.0;0.0;0.433
+BAT014;REG01;2025-03-14;1783;0.56;Plateforme logistique Ryad;entrepot;6040;2012;Casablanca;0.0;0.0;0.433
+BAT014;REG01;2025-03-20;2916;0.23;Plateforme logistique Ryad;entrepot;6040;2012;Casablanca;0.0;0.0;0.433
+BAT014;REG06;2025-01-03;1462;0.31;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-01-08;310;0.72;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-01-29;790;0.43;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-02-02;2738;0.58;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-02-04;709;0.22;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-02-05;2778;0.78;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-02-15;1833;0.82;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-02-18;2895;0.62;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-02-21;241;0.34;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-02-27;2495;0.57;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-03-06;1442;0.52;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-03-26;1722;0.17;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT014;REG06;2025-03-27;1091;0.74;Plateforme logistique Ryad;entrepot;6040;2012;Laayoune;0.0;0.0;0.433
+BAT015;REG05;2025-01-07;1047;0.73;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT015;REG05;2025-01-10;675;0.49;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT015;REG05;2025-01-14;1732;0.91;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT015;REG05;2025-01-20;2970;0.91;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT015;REG05;2025-01-22;2724;0.38;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT015;REG05;2025-01-29;2466;0.44;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT015;REG05;2025-01-31;879;0.34;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT015;REG05;2025-03-02;2444;0.21;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT015;REG05;2025-03-16;1401;0.14;Immeuble Royal;bureau;4475;1993;Berkane;0.0;0.0;0.617
+BAT016;REG02;2025-01-12;734;0.9;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-01-24;1177;0.62;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-01-26;2012;0.73;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-02-07;442;0.41;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-02-16;611;0.5;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-02-19;2555;0.11;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-02-23;1649;0.41;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-02-28;2832;0.32;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-03-09;2361;0.31;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG02;2025-03-12;1685;0.41;Mall Maghreb;centre_commercial;21622;2020;Rabat;0.0;0.0;0.454
+BAT016;REG03;2025-01-19;1903;0.37;Mall Maghreb;centre_commercial;21622;2020;Marrakech;0.0;0.0;0.454
+BAT016;REG03;2025-01-21;2245;0.46;Mall Maghreb;centre_commercial;21622;2020;Marrakech;0.0;0.0;0.454
+BAT016;REG03;2025-01-31;1286;0.73;Mall Maghreb;centre_commercial;21622;2020;Marrakech;0.0;0.0;0.454
+BAT016;REG03;2025-02-13;2035;0.26;Mall Maghreb;centre_commercial;21622;2020;Marrakech;0.0;0.0;0.454
+BAT016;REG03;2025-03-20;313;0.32;Mall Maghreb;centre_commercial;21622;2020;Marrakech;0.0;0.0;0.454
+BAT016;REG03;2025-03-24;1065;0.62;Mall Maghreb;centre_commercial;21622;2020;Marrakech;0.0;0.0;0.454
+BAT016;REG06;2025-01-08;1494;0.25;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-01-14;1345;0.3;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-01-15;2017;0.35;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-01-25;733;0.26;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-01-28;2948;0.3;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-01-31;768;0.41;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-02-01;1248;0.57;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-02-10;2610;0.32;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-02-17;2892;0.29;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-02-21;1258;0.28;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-02-23;2817;0.41;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-03-03;2861;0.24;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-03-06;881;0.32;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-03-14;2323;0.36;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT016;REG06;2025-03-18;1710;0.85;Mall Maghreb;centre_commercial;21622;2020;Laayoune;0.0;0.0;0.454
+BAT017;REG01;2025-01-04;1399;0.21;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-01-20;1375;0.45;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-01-21;412;0.36;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-01-29;858;0.15;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-01-31;2862;0.65;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-02-13;167;0.86;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-02-14;2803;0.48;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-03-06;448;0.21;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-03-18;1624;0.81;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-03-20;2641;0.71;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-03-22;2770;0.71;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-03-29;2639;0.45;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG01;2025-03-30;2248;0.22;Riad Al Fath;hotel;4553;2004;Casablanca;0.0;0.0;0.727
+BAT017;REG05;2025-01-02;785;0.57;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-01-11;737;0.75;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-01-14;2797;0.78;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-02-02;2776;0.31;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-02-05;2959;0.11;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-02-13;762;0.65;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-02-14;1264;0.58;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-03-02;1621;0.85;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-03-11;1798;0.5;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-03-14;1222;0.86;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-03-16;1301;0.5;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-03-18;1902;0.8;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-03-19;1502;0.67;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-03-21;1373;0.16;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT017;REG05;2025-03-26;765;0.93;Riad Al Fath;hotel;4553;2004;Berkane;0.0;0.0;0.727
+BAT018;REG02;2025-01-02;1982;0.35;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG02;2025-01-12;298;0.43;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG02;2025-01-18;1581;0.68;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG02;2025-01-31;1618;0.3;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG02;2025-02-03;2106;0.59;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG02;2025-02-04;928;0.85;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG02;2025-02-14;2736;0.27;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG02;2025-03-02;977;0.52;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG02;2025-03-04;566;0.43;Fabrique Sebou;usine;11532;2004;Rabat;0.0;0.0;0.513
+BAT018;REG04;2025-01-08;329;0.4;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-01-15;668;0.6;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-01-17;1405;0.42;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-01-26;2299;0.68;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-02-13;2906;0.44;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-02-24;2147;0.86;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-02-27;1997;0.13;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-03-12;1102;0.88;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-03-15;2405;0.78;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-03-23;1658;0.27;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG04;2025-03-27;599;0.32;Fabrique Sebou;usine;11532;2004;Tanger;0.0;0.0;0.513
+BAT018;REG06;2025-01-09;1862;0.8;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-01-12;2175;0.11;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-01-14;2028;0.88;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-01-16;2311;0.92;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-01-18;2049;0.75;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-01-19;1335;0.9;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-01-31;1386;0.19;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-02-08;796;0.36;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-02-11;1154;0.67;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-02-16;1679;0.32;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-03-08;2864;0.44;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-03-22;1516;0.59;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-03-23;1598;0.47;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-03-27;183;0.64;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT018;REG06;2025-03-31;1453;0.71;Fabrique Sebou;usine;11532;2004;Laayoune;0.0;0.0;0.513
+BAT019;REG02;2025-01-19;1937;0.59;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG02;2025-01-22;2560;0.18;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG02;2025-02-13;1977;0.51;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG02;2025-02-18;1575;0.84;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG02;2025-03-06;119;0.23;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG02;2025-03-14;1351;0.66;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG02;2025-03-17;1394;0.87;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG02;2025-03-19;2949;0.7;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG02;2025-03-23;979;0.41;Institut Al Andalous;ecole;1163;2024;Rabat;0.0;0.0;0.31
+BAT019;REG04;2025-01-01;1539;0.87;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-01-22;2169;0.78;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-01-25;945;0.64;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-01-26;1269;0.72;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-01-28;2249;0.84;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-02-03;1109;0.6;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-02-08;2358;0.2;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-02-15;2450;0.33;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-02-24;2152;0.81;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-03-12;679;0.63;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-03-14;1670;0.82;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-03-22;1847;0.13;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG04;2025-03-24;123;0.76;Institut Al Andalous;ecole;1163;2024;Tanger;0.0;0.0;0.31
+BAT019;REG05;2025-01-04;442;0.5;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-01-19;2822;0.94;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-01-21;523;0.24;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-01-22;1029;0.88;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-02-11;1778;0.25;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-02-27;676;0.42;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-03-09;2346;0.52;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-03-17;549;0.92;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-03-23;1912;0.25;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT019;REG05;2025-03-29;1455;0.74;Institut Al Andalous;ecole;1163;2024;Berkane;0.0;0.0;0.31
+BAT020;REG03;2025-01-02;1116;0.52;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG03;2025-01-27;563;0.89;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG03;2025-01-31;890;0.27;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG03;2025-02-03;2509;0.76;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG03;2025-03-05;2703;0.62;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG03;2025-03-17;1715;0.59;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG03;2025-03-25;2180;0.1;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG03;2025-03-28;1257;0.86;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG03;2025-03-29;2921;0.42;Hotel Rif;hotel;5664;1994;Marrakech;0.0;0.0;0.46
+BAT020;REG05;2025-01-05;2617;0.43;Hotel Rif;hotel;5664;1994;Berkane;0.0;0.0;0.46
+BAT020;REG05;2025-01-19;463;0.51;Hotel Rif;hotel;5664;1994;Berkane;0.0;0.0;0.46
+BAT020;REG05;2025-02-08;1625;0.66;Hotel Rif;hotel;5664;1994;Berkane;0.0;0.0;0.46
+BAT020;REG05;2025-02-11;900;0.3;Hotel Rif;hotel;5664;1994;Berkane;0.0;0.0;0.46
+BAT020;REG05;2025-02-17;2576;0.78;Hotel Rif;hotel;5664;1994;Berkane;0.0;0.0;0.46
+BAT020;REG05;2025-02-21;2835;0.91;Hotel Rif;hotel;5664;1994;Berkane;0.0;0.0;0.46
+BAT020;REG05;2025-03-21;1536;0.82;Hotel Rif;hotel;5664;1994;Berkane;0.0;0.0;0.46
+BAT020;REG05;2025-03-30;306;0.29;Hotel Rif;hotel;5664;1994;Berkane;0.0;0.0;0.46
+BAT021;REG05;2025-01-03;870;0.85;Centre Al Majd;bureau;1088;2016;Berkane;0.0;0.0;0.699
+BAT021;REG05;2025-01-16;907;0.71;Centre Al Majd;bureau;1088;2016;Berkane;0.0;0.0;0.699
+BAT021;REG05;2025-02-01;2869;0.31;Centre Al Majd;bureau;1088;2016;Berkane;0.0;0.0;0.699
+BAT021;REG05;2025-02-21;670;0.73;Centre Al Majd;bureau;1088;2016;Berkane;0.0;0.0;0.699
+BAT021;REG05;2025-02-27;2775;0.83;Centre Al Majd;bureau;1088;2016;Berkane;0.0;0.0;0.699
+BAT021;REG05;2025-03-04;264;0.58;Centre Al Majd;bureau;1088;2016;Berkane;0.0;0.0;0.699
+BAT021;REG05;2025-03-11;2141;0.12;Centre Al Majd;bureau;1088;2016;Berkane;0.0;0.0;0.699
+BAT021;REG05;2025-03-16;1863;0.65;Centre Al Majd;bureau;1088;2016;Berkane;0.0;0.0;0.699
+BAT021;REG06;2025-01-15;1150;0.34;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-01-20;1277;0.94;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-01-25;2845;0.19;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-03-02;1994;0.58;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-03-04;744;0.66;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-03-10;2371;0.45;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-03-15;2597;0.62;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-03-17;2251;0.78;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-03-24;137;0.42;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT021;REG06;2025-03-25;1221;0.45;Centre Al Majd;bureau;1088;2016;Laayoune;0.0;0.0;0.699
+BAT022;REG01;2025-01-05;515;0.81;Ecole Atlas;ecole;1285;2018;Casablanca;0.0;0.0;0.431
+BAT022;REG01;2025-01-08;577;0.13;Ecole Atlas;ecole;1285;2018;Casablanca;0.0;0.0;0.431
+BAT022;REG01;2025-01-14;1397;0.89;Ecole Atlas;ecole;1285;2018;Casablanca;0.0;0.0;0.431
+BAT022;REG01;2025-02-06;1319;0.26;Ecole Atlas;ecole;1285;2018;Casablanca;0.0;0.0;0.431
+BAT022;REG01;2025-03-07;2801;0.71;Ecole Atlas;ecole;1285;2018;Casablanca;0.0;0.0;0.431
+BAT022;REG01;2025-03-09;1333;0.47;Ecole Atlas;ecole;1285;2018;Casablanca;0.0;0.0;0.431
+BAT022;REG01;2025-03-18;1676;0.53;Ecole Atlas;ecole;1285;2018;Casablanca;0.0;0.0;0.431
+BAT022;REG01;2025-03-30;2497;0.35;Ecole Atlas;ecole;1285;2018;Casablanca;0.0;0.0;0.431
+BAT022;REG06;2025-01-12;1661;0.86;Ecole Atlas;ecole;1285;2018;Laayoune;0.0;0.0;0.431
+BAT022;REG06;2025-01-13;328;0.16;Ecole Atlas;ecole;1285;2018;Laayoune;0.0;0.0;0.431
+BAT022;REG06;2025-02-23;616;0.47;Ecole Atlas;ecole;1285;2018;Laayoune;0.0;0.0;0.431
+BAT022;REG06;2025-03-02;316;0.79;Ecole Atlas;ecole;1285;2018;Laayoune;0.0;0.0;0.431
+BAT022;REG06;2025-03-21;537;0.15;Ecole Atlas;ecole;1285;2018;Laayoune;0.0;0.0;0.431
+BAT022;REG06;2025-03-22;2943;0.52;Ecole Atlas;ecole;1285;2018;Laayoune;0.0;0.0;0.431
+BAT023;REG03;2025-01-02;911;0.56;Edifice Atlas;bureau;4071;2019;Marrakech;0.0;0.0;0.476
+BAT023;REG03;2025-01-15;2535;0.56;Edifice Atlas;bureau;4071;2019;Marrakech;0.0;0.0;0.476
+BAT023;REG03;2025-01-16;2680;0.45;Edifice Atlas;bureau;4071;2019;Marrakech;0.0;0.0;0.476
+BAT023;REG03;2025-01-25;2136;0.9;Edifice Atlas;bureau;4071;2019;Marrakech;0.0;0.0;0.476
+BAT023;REG03;2025-02-03;248;0.2;Edifice Atlas;bureau;4071;2019;Marrakech;0.0;0.0;0.476
+BAT023;REG03;2025-02-14;2672;0.2;Edifice Atlas;bureau;4071;2019;Marrakech;0.0;0.0;0.476
+BAT023;REG03;2025-03-20;622;0.43;Edifice Atlas;bureau;4071;2019;Marrakech;0.0;0.0;0.476
+BAT023;REG05;2025-01-03;2801;0.69;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-01-07;1143;0.61;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-01-10;568;0.56;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-01-18;1474;0.22;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-01-28;913;0.47;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-02-04;1183;0.74;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-02-10;893;0.89;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-02-15;381;0.73;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-02-20;797;0.82;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-03-11;1299;0.34;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-03-13;2499;0.23;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-03-17;2028;0.46;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT023;REG05;2025-03-19;820;0.18;Edifice Atlas;bureau;4071;2019;Berkane;0.0;0.0;0.476
+BAT024;REG04;2025-01-06;2066;0.45;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-01-18;1852;0.46;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-01-19;435;0.13;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-01-25;1540;0.13;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-02-17;1762;0.92;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-02-21;2707;0.56;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-03-03;702;0.24;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-03-10;1938;0.88;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-03-11;2698;0.38;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-03-16;237;0.49;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG04;2025-03-30;1987;0.55;College Atlas;ecole;4317;2003;Tanger;0.0;0.0;0.448
+BAT024;REG06;2025-01-01;2305;0.88;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-01-02;2203;0.68;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-01-13;1053;0.69;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-01-14;2350;0.75;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-01-16;1904;0.18;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-01-21;2243;0.48;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-01-24;2262;0.56;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-01-26;969;0.65;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-01-31;1784;0.64;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-02-04;1854;0.19;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-02-11;2219;0.83;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-02-16;885;0.57;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-02-18;1439;0.59;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-02-19;2267;0.4;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-02-27;190;0.84;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-03-05;989;0.49;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-03-06;1390;0.32;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-03-18;2847;0.12;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-03-26;163;0.23;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT024;REG06;2025-03-27;2307;0.5;College Atlas;ecole;4317;2003;Laayoune;0.0;0.0;0.448
+BAT025;REG04;2025-01-06;279;0.62;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-01-08;349;0.29;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-01-22;2363;0.14;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-01-25;2348;0.78;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-01-28;2530;0.59;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-02-01;166;0.35;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-02-04;1155;0.4;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-02-07;2278;0.89;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-02-13;2096;0.4;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-02-15;1797;0.29;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-02-22;2902;0.22;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-02-23;653;0.41;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-02-24;2709;0.68;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-03-07;142;0.6;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG04;2025-03-12;1712;0.84;Site industriel Palmier;usine;3156;1991;Tanger;0.0;0.0;0.835
+BAT025;REG05;2025-01-03;2262;0.48;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-01-07;2870;0.73;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-01-08;1076;0.19;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-01-17;2115;0.75;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-01-18;2128;0.35;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-01-19;387;0.25;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-01-22;516;0.68;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-02-02;2965;0.37;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-02-04;753;0.77;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-02-12;1584;0.91;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-02-23;2790;0.95;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-03-14;2272;0.12;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-03-15;2139;0.4;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-03-21;2270;0.81;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT025;REG05;2025-03-31;874;0.3;Site industriel Palmier;usine;3156;1991;Berkane;0.0;0.0;0.835
+BAT026;REG01;2025-01-04;1139;0.68;Galerie Al Wahda;centre_commercial;13241;1991;Casablanca;0.0;0.0;0.439
+BAT026;REG01;2025-01-06;264;0.16;Galerie Al Wahda;centre_commercial;13241;1991;Casablanca;0.0;0.0;0.439
+BAT026;REG01;2025-01-08;490;0.65;Galerie Al Wahda;centre_commercial;13241;1991;Casablanca;0.0;0.0;0.439
+BAT026;REG01;2025-02-27;721;0.95;Galerie Al Wahda;centre_commercial;13241;1991;Casablanca;0.0;0.0;0.439
+BAT026;REG01;2025-03-05;173;0.92;Galerie Al Wahda;centre_commercial;13241;1991;Casablanca;0.0;0.0;0.439
+BAT026;REG01;2025-03-08;2820;0.44;Galerie Al Wahda;centre_commercial;13241;1991;Casablanca;0.0;0.0;0.439
+BAT026;REG01;2025-03-17;1734;0.91;Galerie Al Wahda;centre_commercial;13241;1991;Casablanca;0.0;0.0;0.439
+BAT026;REG01;2025-03-20;1584;0.66;Galerie Al Wahda;centre_commercial;13241;1991;Casablanca;0.0;0.0;0.439
+BAT026;REG06;2025-01-03;1583;0.64;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-01-06;1117;0.11;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-01-13;2890;0.77;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-01-21;236;0.17;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-01-24;1670;0.25;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-01-25;1420;0.29;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-01-30;1600;0.49;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-02-01;680;0.44;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-02-14;1481;0.28;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-02-18;2796;0.44;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-02-20;2938;0.71;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-03-04;328;0.88;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-03-13;977;0.37;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT026;REG06;2025-03-17;2490;0.92;Galerie Al Wahda;centre_commercial;13241;1991;Laayoune;0.0;0.0;0.439
+BAT027;REG02;2025-01-17;798;0.37;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-01-19;1626;0.34;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-01-30;2499;0.65;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-01-31;2482;0.15;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-02-08;1812;0.81;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-02-12;918;0.66;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-02-25;1990;0.7;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-03-01;1728;0.38;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-03-02;1298;0.51;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-03-14;394;0.56;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-03-17;569;0.83;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-03-20;711;0.68;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-03-21;2703;0.8;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-03-29;1293;0.82;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG02;2025-03-30;1642;0.25;Edifice Grand;bureau;3977;1992;Rabat;0.0;0.0;0.208
+BAT027;REG03;2025-01-14;2479;0.39;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-01-18;1922;0.82;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-01-24;2641;0.8;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-01-31;116;0.63;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-02-01;1416;0.89;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-02-09;997;0.4;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-02-10;469;0.63;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-02-18;263;0.11;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-02-19;2676;0.61;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-03-07;864;0.94;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-03-08;1030;0.83;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-03-12;672;0.3;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-03-18;498;0.44;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-03-22;1951;0.47;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-03-27;1503;0.82;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT027;REG03;2025-03-29;1862;0.86;Edifice Grand;bureau;3977;1992;Marrakech;0.0;0.0;0.208
+BAT028;REG03;2025-02-09;2102;0.24;Residence Maghreb;hotel;3463;2013;Marrakech;0.0;0.0;0.518
+BAT028;REG03;2025-02-11;1620;0.66;Residence Maghreb;hotel;3463;2013;Marrakech;0.0;0.0;0.518
+BAT028;REG03;2025-03-05;1766;0.52;Residence Maghreb;hotel;3463;2013;Marrakech;0.0;0.0;0.518
+BAT028;REG03;2025-03-07;1974;0.89;Residence Maghreb;hotel;3463;2013;Marrakech;0.0;0.0;0.518
+BAT028;REG03;2025-03-14;1508;0.37;Residence Maghreb;hotel;3463;2013;Marrakech;0.0;0.0;0.518
+BAT028;REG03;2025-03-20;461;0.84;Residence Maghreb;hotel;3463;2013;Marrakech;0.0;0.0;0.518
+BAT028;REG03;2025-03-21;2899;0.94;Residence Maghreb;hotel;3463;2013;Marrakech;0.0;0.0;0.518
+BAT028;REG06;2025-01-06;1196;0.34;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-01-08;910;0.34;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-01-15;1196;0.53;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-01-21;2027;0.95;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-01-23;1292;0.64;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-02-06;2833;0.28;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-02-16;1977;0.38;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-02-17;2011;0.6;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-03-04;1359;0.57;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-03-14;2535;0.25;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-03-17;1732;0.64;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-03-20;124;0.59;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT028;REG06;2025-03-30;1623;0.37;Residence Maghreb;hotel;3463;2013;Laayoune;0.0;0.0;0.518
+BAT029;REG01;2025-01-05;2849;0.2;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-01-07;336;0.4;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-01-15;1690;0.68;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-01-23;781;0.57;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-01-26;1478;0.19;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-02-08;324;0.6;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-02-09;1369;0.18;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-02-10;1544;0.63;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-02-17;1295;0.89;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-02-18;2719;0.25;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-03-14;2839;0.26;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-03-16;2283;0.43;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-03-20;1706;0.86;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG01;2025-03-29;500;0.73;Site industriel Rif;usine;14958;2013;Casablanca;0.0;0.0;0.969
+BAT029;REG03;2025-01-11;2625;0.36;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-01-13;1104;0.63;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-01-21;2296;0.83;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-02-01;187;0.19;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-02-19;1572;0.44;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-02-26;2522;0.71;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-03-06;2153;0.2;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-03-08;1226;0.61;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-03-18;1300;0.31;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-03-24;2150;0.51;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT029;REG03;2025-03-28;377;0.1;Site industriel Rif;usine;14958;2013;Marrakech;0.0;0.0;0.969
+BAT030;REG01;2025-01-02;2753;0.63;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-01-09;1915;0.63;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-01-15;818;0.48;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-01-24;548;0.34;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-01-27;2454;0.39;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-01-28;1449;0.1;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-01-30;2061;0.84;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-02-11;637;0.48;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-02-20;569;0.67;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-02-24;1025;0.69;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-02-27;1709;0.79;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-03-19;800;0.52;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG01;2025-03-25;2781;0.5;Centre Al Majd;bureau;3971;2005;Casablanca;0.0;0.0;0.256
+BAT030;REG02;2025-01-09;2030;0.4;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-01-10;288;0.92;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-01-11;2699;0.29;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-01-24;1636;0.47;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-01-25;1664;0.44;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-01-27;1440;0.69;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-01-29;1718;0.2;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-02-04;922;0.64;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-02-09;1937;0.44;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-02-17;897;0.85;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-03-04;1842;0.44;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-03-06;1174;0.63;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-03-07;1741;0.87;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG02;2025-03-23;1672;0.93;Centre Al Majd;bureau;3971;2005;Rabat;0.0;0.0;0.256
+BAT030;REG05;2025-01-02;2499;0.24;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-01-03;1582;0.3;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-01-10;1974;0.77;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-02-12;1392;0.52;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-02-13;2946;0.7;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-02-20;1081;0.16;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-03-01;144;0.26;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-03-08;2661;0.26;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-03-19;2914;0.69;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-03-27;1534;0.44;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT030;REG05;2025-03-31;2867;0.82;Centre Al Majd;bureau;3971;2005;Berkane;0.0;0.0;0.256
+BAT031;REG02;2025-01-01;2425;0.84;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-01-06;1379;0.43;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-01-14;2431;0.41;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-01-18;1950;0.69;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-01-24;1789;0.32;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-01-26;2286;0.9;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-01-28;968;0.72;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-02-09;2445;0.58;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-02-15;2514;0.8;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-02-20;681;0.46;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-02-27;2333;0.39;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-03-01;1143;0.64;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-03-06;564;0.9;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-03-20;702;0.16;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG02;2025-03-27;1099;0.76;Hangar Al Massira;entrepot;4265;2012;Rabat;0.0;0.0;0.629
+BAT031;REG03;2025-01-08;2859;0.73;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG03;2025-01-21;2044;0.48;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG03;2025-02-11;2640;0.68;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG03;2025-02-22;1217;0.33;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG03;2025-03-07;1824;0.7;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG03;2025-03-12;2575;0.33;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG03;2025-03-22;1764;0.27;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG03;2025-03-24;450;0.73;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG03;2025-03-28;142;0.21;Hangar Al Massira;entrepot;4265;2012;Marrakech;0.0;0.0;0.629
+BAT031;REG06;2025-01-01;889;0.79;Hangar Al Massira;entrepot;4265;2012;Laayoune;0.0;0.0;0.629
+BAT031;REG06;2025-01-02;345;0.92;Hangar Al Massira;entrepot;4265;2012;Laayoune;0.0;0.0;0.629
+BAT031;REG06;2025-01-26;2699;0.75;Hangar Al Massira;entrepot;4265;2012;Laayoune;0.0;0.0;0.629
+BAT031;REG06;2025-02-09;522;0.12;Hangar Al Massira;entrepot;4265;2012;Laayoune;0.0;0.0;0.629
+BAT031;REG06;2025-03-02;2581;0.63;Hangar Al Massira;entrepot;4265;2012;Laayoune;0.0;0.0;0.629
+BAT031;REG06;2025-03-07;1051;0.65;Hangar Al Massira;entrepot;4265;2012;Laayoune;0.0;0.0;0.629
+BAT031;REG06;2025-03-09;2081;0.69;Hangar Al Massira;entrepot;4265;2012;Laayoune;0.0;0.0;0.629
+BAT031;REG06;2025-03-23;2175;0.88;Hangar Al Massira;entrepot;4265;2012;Laayoune;0.0;0.0;0.629
+BAT032;REG01;2025-01-03;2009;0.81;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-01-04;504;0.29;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-01-06;1745;0.33;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-01-15;272;0.35;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-01-19;2315;0.26;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-02-12;1201;0.8;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-02-20;1352;0.79;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-03-05;2180;0.12;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-03-07;750;0.26;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-03-08;2115;0.61;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-03-18;1207;0.53;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG01;2025-03-23;122;0.94;Tour Al Fath;bureau;2184;2014;Casablanca;0.0;0.0;0.278
+BAT032;REG02;2025-01-01;969;0.84;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-01-04;1992;0.87;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-01-05;1237;0.24;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-01-08;1939;0.13;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-01-09;1826;0.87;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-01-17;2857;0.62;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-01-21;2777;0.3;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-02-11;2474;0.81;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-02-13;443;0.36;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-02-14;841;0.75;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-02-16;2890;0.26;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-02-18;567;0.23;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-02-25;2310;0.24;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-07;526;0.79;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-16;2603;0.11;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-18;2214;0.37;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-19;1948;0.29;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-21;1605;0.81;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-22;610;0.36;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-25;2585;0.14;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-27;1456;0.36;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG02;2025-03-31;2045;0.77;Tour Al Fath;bureau;2184;2014;Rabat;0.0;0.0;0.278
+BAT032;REG04;2025-01-03;148;0.19;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-01-09;483;0.69;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-01-11;351;0.49;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-01-12;2162;0.11;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-01-14;1670;0.46;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-01-21;2799;0.84;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-02-07;2332;0.88;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-02-08;2549;0.82;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-02-09;2462;0.15;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-02-18;2592;0.43;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-02-25;166;0.59;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-03-08;2297;0.83;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-03-09;951;0.83;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-03-20;1765;0.67;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT032;REG04;2025-03-21;699;0.23;Tour Al Fath;bureau;2184;2014;Tanger;0.0;0.0;0.278
+BAT033;REG03;2025-01-10;2856;0.56;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-01-20;1974;0.18;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-01-27;1919;0.18;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-02-19;947;0.37;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-02-21;2522;0.36;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-03-09;666;0.53;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-03-12;2287;0.57;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-03-19;1925;0.92;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-03-23;398;0.75;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG03;2025-03-30;1823;0.9;Hotel Oum Rabia;hotel;2713;2023;Marrakech;0.0;119.01;0.0
+BAT033;REG05;2025-01-04;652;0.84;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT033;REG05;2025-01-08;1055;0.65;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT033;REG05;2025-01-11;191;0.32;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT033;REG05;2025-01-12;244;0.46;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT033;REG05;2025-01-29;2253;0.44;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT033;REG05;2025-02-05;1593;0.8;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT033;REG05;2025-02-07;398;0.48;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT033;REG05;2025-02-25;2955;0.76;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT033;REG05;2025-03-26;2405;0.78;Hotel Oum Rabia;hotel;2713;2023;Berkane;0.0;119.01;0.0
+BAT034;REG01;2025-01-31;371;0.65;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-02-14;415;0.62;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-02-23;1343;0.38;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-02-24;1706;0.61;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-03-02;2836;0.63;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-03-13;1113;0.69;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-03-14;1358;0.73;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-03-20;722;0.86;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-03-21;1171;0.94;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-03-24;2218;0.32;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG01;2025-03-29;619;0.93;Atelier Maghreb;usine;6840;2004;Casablanca;0.0;0.0;0.338
+BAT034;REG06;2025-01-01;2989;0.85;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT034;REG06;2025-01-11;1614;0.38;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT034;REG06;2025-01-18;2412;0.72;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT034;REG06;2025-01-29;2467;0.94;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT034;REG06;2025-02-10;2732;0.86;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT034;REG06;2025-02-13;1253;0.92;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT034;REG06;2025-02-16;2316;0.58;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT034;REG06;2025-03-02;2242;0.85;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT034;REG06;2025-03-14;309;0.12;Atelier Maghreb;usine;6840;2004;Laayoune;0.0;0.0;0.338
+BAT035;REG01;2025-01-03;1379;0.88;Manufacture Al Majd;usine;11121;2017;Casablanca;0.0;0.0;0.758
+BAT035;REG01;2025-01-15;2664;0.86;Manufacture Al Majd;usine;11121;2017;Casablanca;0.0;0.0;0.758
+BAT035;REG01;2025-01-17;1891;0.82;Manufacture Al Majd;usine;11121;2017;Casablanca;0.0;0.0;0.758
+BAT035;REG01;2025-01-23;2373;0.22;Manufacture Al Majd;usine;11121;2017;Casablanca;0.0;0.0;0.758
+BAT035;REG01;2025-02-13;2475;0.43;Manufacture Al Majd;usine;11121;2017;Casablanca;0.0;0.0;0.758
+BAT035;REG01;2025-02-25;105;0.43;Manufacture Al Majd;usine;11121;2017;Casablanca;0.0;0.0;0.758
+BAT035;REG01;2025-03-14;1711;0.26;Manufacture Al Majd;usine;11121;2017;Casablanca;0.0;0.0;0.758
+BAT035;REG01;2025-03-23;1438;0.14;Manufacture Al Majd;usine;11121;2017;Casablanca;0.0;0.0;0.758
+BAT035;REG03;2025-01-31;1353;0.3;Manufacture Al Majd;usine;11121;2017;Marrakech;0.0;0.0;0.758
+BAT035;REG03;2025-02-17;574;0.78;Manufacture Al Majd;usine;11121;2017;Marrakech;0.0;0.0;0.758
+BAT035;REG03;2025-02-19;1798;0.11;Manufacture Al Majd;usine;11121;2017;Marrakech;0.0;0.0;0.758
+BAT035;REG03;2025-03-04;2532;0.25;Manufacture Al Majd;usine;11121;2017;Marrakech;0.0;0.0;0.758
+BAT035;REG03;2025-03-14;1485;0.69;Manufacture Al Majd;usine;11121;2017;Marrakech;0.0;0.0;0.758
+BAT035;REG03;2025-03-18;2365;0.76;Manufacture Al Majd;usine;11121;2017;Marrakech;0.0;0.0;0.758
+BAT035;REG03;2025-03-24;476;0.2;Manufacture Al Majd;usine;11121;2017;Marrakech;0.0;0.0;0.758
+BAT035;REG03;2025-03-27;2047;0.89;Manufacture Al Majd;usine;11121;2017;Marrakech;0.0;0.0;0.758
+BAT035;REG04;2025-01-09;2542;0.91;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-01-12;258;0.22;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-01-13;2230;0.13;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-01-18;2393;0.51;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-01-19;2712;0.73;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-01-22;720;0.31;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-01-25;887;0.46;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-01-30;2906;0.68;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-02-07;2394;0.82;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-02-08;1500;0.95;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-02-10;705;0.45;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-02-11;211;0.47;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-02-13;631;0.71;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-02-28;1891;0.86;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-03-19;2786;0.24;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-03-24;468;0.13;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT035;REG04;2025-03-25;1684;0.5;Manufacture Al Majd;usine;11121;2017;Tanger;0.0;0.0;0.758
+BAT036;REG02;2025-01-03;1918;0.3;Fabrique Rif;usine;7148;1999;Rabat;0.0;50.75;0.0
+BAT036;REG02;2025-01-09;1121;0.84;Fabrique Rif;usine;7148;1999;Rabat;0.0;50.75;0.0
+BAT036;REG02;2025-02-14;636;0.18;Fabrique Rif;usine;7148;1999;Rabat;0.0;50.75;0.0
+BAT036;REG02;2025-02-19;336;0.12;Fabrique Rif;usine;7148;1999;Rabat;0.0;50.75;0.0
+BAT036;REG02;2025-03-01;2627;0.91;Fabrique Rif;usine;7148;1999;Rabat;0.0;50.75;0.0
+BAT036;REG02;2025-03-23;1901;0.18;Fabrique Rif;usine;7148;1999;Rabat;0.0;50.75;0.0
+BAT036;REG02;2025-03-24;879;0.83;Fabrique Rif;usine;7148;1999;Rabat;0.0;50.75;0.0
+BAT036;REG02;2025-03-25;1267;0.19;Fabrique Rif;usine;7148;1999;Rabat;0.0;50.75;0.0
+BAT036;REG06;2025-01-10;1307;0.79;Fabrique Rif;usine;7148;1999;Laayoune;0.0;50.75;0.0
+BAT036;REG06;2025-01-26;397;0.48;Fabrique Rif;usine;7148;1999;Laayoune;0.0;50.75;0.0
+BAT036;REG06;2025-02-11;2928;0.76;Fabrique Rif;usine;7148;1999;Laayoune;0.0;50.75;0.0
+BAT036;REG06;2025-02-27;2511;0.72;Fabrique Rif;usine;7148;1999;Laayoune;0.0;50.75;0.0
+BAT036;REG06;2025-03-19;1056;0.23;Fabrique Rif;usine;7148;1999;Laayoune;0.0;50.75;0.0
+BAT036;REG06;2025-03-22;1183;0.59;Fabrique Rif;usine;7148;1999;Laayoune;0.0;50.75;0.0
+BAT037;REG01;2025-01-14;396;0.91;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-01-15;1527;0.94;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-01-16;968;0.71;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-02-01;1222;0.42;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-02-05;930;0.33;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-02-07;981;0.78;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-02-18;2938;0.31;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-02-19;1822;0.85;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-02-25;1915;0.51;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-03-04;379;0.3;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-03-07;1453;0.72;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-03-22;134;0.36;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-03-25;2633;0.28;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG01;2025-03-27;896;0.49;Atelier Royal;usine;11383;1999;Casablanca;0.0;0.0;0.398
+BAT037;REG02;2025-01-14;1740;0.56;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-01-15;2135;0.12;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-01-16;1965;0.44;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-02-02;124;0.78;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-02-06;2634;0.19;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-02-21;2791;0.56;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-02-24;1634;0.59;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-03-07;522;0.24;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-03-17;466;0.26;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-03-19;349;0.55;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG02;2025-03-25;1812;0.32;Atelier Royal;usine;11383;1999;Rabat;0.0;0.0;0.398
+BAT037;REG03;2025-01-02;2398;0.83;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG03;2025-01-05;2764;0.56;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG03;2025-01-08;777;0.93;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG03;2025-01-12;2616;0.16;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG03;2025-01-13;1444;0.44;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG03;2025-01-18;1846;0.71;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG03;2025-02-08;2107;0.37;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG03;2025-03-03;1042;0.94;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG03;2025-03-21;928;0.15;Atelier Royal;usine;11383;1999;Marrakech;0.0;0.0;0.398
+BAT037;REG05;2025-01-09;2895;0.83;Atelier Royal;usine;11383;1999;Berkane;0.0;0.0;0.398
+BAT037;REG05;2025-01-10;579;0.69;Atelier Royal;usine;11383;1999;Berkane;0.0;0.0;0.398
+BAT037;REG05;2025-01-20;2220;0.8;Atelier Royal;usine;11383;1999;Berkane;0.0;0.0;0.398
+BAT037;REG05;2025-01-28;1641;0.38;Atelier Royal;usine;11383;1999;Berkane;0.0;0.0;0.398
+BAT037;REG05;2025-02-18;2180;0.94;Atelier Royal;usine;11383;1999;Berkane;0.0;0.0;0.398
+BAT038;REG02;2025-01-01;1937;0.42;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG02;2025-01-03;1045;0.86;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG02;2025-01-22;797;0.21;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG02;2025-01-29;1370;0.26;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG02;2025-01-30;2756;0.24;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG02;2025-02-02;1661;0.72;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG02;2025-03-19;2719;0.72;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG02;2025-03-22;2271;0.56;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG02;2025-03-31;842;0.57;Manufacture Al Andalous;usine;14461;2019;Rabat;0.0;0.0;0.994
+BAT038;REG04;2025-01-04;381;0.81;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-01-12;2335;0.12;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-01-17;1342;0.74;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-01-21;882;0.78;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-01-25;1444;0.79;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-01-29;943;0.93;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-01;735;0.18;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-02;2740;0.45;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-05;2358;0.46;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-09;662;0.33;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-10;1210;0.43;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-12;623;0.9;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-15;1045;0.23;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-16;2202;0.86;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-22;828;0.9;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-23;1812;0.72;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-02-25;1903;0.24;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-03-09;1298;0.62;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-03-11;343;0.57;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-03-15;2018;0.42;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-03-18;2504;0.51;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT038;REG04;2025-03-29;1801;0.2;Manufacture Al Andalous;usine;14461;2019;Tanger;0.0;0.0;0.994
+BAT039;REG04;2025-01-01;889;0.54;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG04;2025-01-08;1537;0.68;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG04;2025-01-10;2906;0.14;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG04;2025-01-12;1240;0.35;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG04;2025-01-16;959;0.31;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG04;2025-01-30;198;0.48;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG04;2025-03-05;1037;0.72;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG04;2025-03-21;2827;0.73;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG04;2025-03-22;594;0.92;Fabrique Al Wahda;usine;8106;2002;Tanger;0.0;0.0;0.739
+BAT039;REG05;2025-01-01;2891;0.14;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT039;REG05;2025-01-08;891;0.2;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT039;REG05;2025-01-22;326;0.59;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT039;REG05;2025-01-24;2603;0.84;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT039;REG05;2025-02-22;2808;0.71;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT039;REG05;2025-02-26;581;0.32;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT039;REG05;2025-03-08;1585;0.58;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT039;REG05;2025-03-12;2665;0.4;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT039;REG05;2025-03-18;2667;0.89;Fabrique Al Wahda;usine;8106;2002;Berkane;0.0;0.0;0.739
+BAT040;REG03;2025-01-10;1549;0.85;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-01-13;2575;0.86;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-01-19;2419;0.76;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-01-22;1281;0.61;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-02-14;2775;0.38;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-02-26;238;0.5;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-02-28;2745;0.47;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-03-12;2304;0.5;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-03-16;2141;0.61;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-03-20;339;0.94;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-03-24;2234;0.93;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG03;2025-03-25;334;0.69;Usine Grand;usine;9678;2011;Marrakech;0.0;0.0;0.275
+BAT040;REG06;2025-01-26;1427;0.62;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-01-28;1562;0.77;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-02-10;910;0.43;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-02-16;457;0.35;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-02-18;1093;0.55;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-03-01;683;0.45;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-03-07;1916;0.78;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-03-14;1628;0.23;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-03-15;2028;0.71;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-03-20;2682;0.15;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-03-28;406;0.77;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
+BAT040;REG06;2025-03-31;668;0.55;Usine Grand;usine;9678;2011;Laayoune;0.0;0.0;0.275
