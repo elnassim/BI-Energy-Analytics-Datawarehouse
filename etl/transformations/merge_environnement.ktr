@@ -437,13 +437,8 @@
   </notepads>
   <order>
     <hop>
-      <from>batiments</from>
-      <to>Envirommental + Batiment</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Environnement_all</from>
-      <to>Envirommental + Batiment</to>
+      <to>All+ Enviromment</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -452,23 +447,8 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Envirommental + Batiment</from>
+      <from>All+ Enviromment</from>
       <to>All + Region</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>All + Region</from>
-      <to>All + Consommation</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Consommation_AGG</from>
-      <to>All + Consommation</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>All + Consommation</from>
-      <to>environnement_final</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -483,12 +463,37 @@
     </hop>
     <hop>
       <from>Date_calc</from>
+      <to>Sort rows</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows</from>
       <to>Consommation_AGG</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Consommation_AGG</from>
-      <to>environnement_final 2 2</to>
+      <to>Conso + Batiment </to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>batiments</from>
+      <to>Conso + Batiment </to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Conso + Batiment </from>
+      <to>All+ Enviromment</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>All + Region</from>
+      <to>environnement_final</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>All+ Enviromment</from>
+      <to>environnement_final 2</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -544,7 +549,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>960</xloc>
+      <xloc>1088</xloc>
       <yloc>208</yloc>
       <draw>Y</draw>
     </GUI>
@@ -882,6 +887,102 @@
     </GUI>
   </step>
   <step>
+    <name>All + Region</name>
+    <type>StreamLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <from>Regions</from>
+    <input_sorted>N</input_sorted>
+    <preserve_memory>Y</preserve_memory>
+    <sorted_list>N</sorted_list>
+    <integer_pair>N</integer_pair>
+    <lookup>
+      <key>
+        <name>id_region</name>
+        <field>id_region</field>
+      </key>
+      <value>
+        <name>nom_region</name>
+        <rename>nom_region</rename>
+        <default/>
+        <type>String</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>208</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>All+ Enviromment</name>
+    <type>StreamLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <from>Environnement_all</from>
+    <input_sorted>N</input_sorted>
+    <preserve_memory>Y</preserve_memory>
+    <sorted_list>N</sorted_list>
+    <integer_pair>N</integer_pair>
+    <lookup>
+      <key>
+        <name>id_batiment</name>
+        <field>id_batiment</field>
+      </key>
+      <value>
+        <name>date_rapport</name>
+        <rename>date_rapport</rename>
+        <default/>
+        <type>String</type>
+      </value>
+      <value>
+        <name>emission_CO2_kg</name>
+        <rename>emission_CO2_kg</rename>
+        <default/>
+        <type>Number</type>
+      </value>
+      <value>
+        <name>taux_recyclage</name>
+        <rename>taux_recyclage</rename>
+        <default/>
+        <type>Number</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>704</xloc>
+      <yloc>208</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Environnement_all</name>
     <type>CsvInput</type>
     <description/>
@@ -978,162 +1079,6 @@
     </GUI>
   </step>
   <step>
-    <name>Envirommental + Batiment</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>batiments</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>id_batiment</name>
-        <field>id_batiment</field>
-      </key>
-      <value>
-        <name>nom_batiment</name>
-        <rename>nom_batiment</rename>
-        <default/>
-        <type>String</type>
-      </value>
-      <value>
-        <name>type_batiment</name>
-        <rename>type_batiment</rename>
-        <default/>
-        <type>String</type>
-      </value>
-      <value>
-        <name>surface_m2</name>
-        <rename>surface_m2</rename>
-        <default/>
-        <type>Integer</type>
-      </value>
-      <value>
-        <name>annee_construction</name>
-        <rename>annee_construction</rename>
-        <default/>
-        <type>Integer</type>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>448</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>All + Region</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>Regions</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>id_region</name>
-        <field>id_region</field>
-      </key>
-      <value>
-        <name>nom_region</name>
-        <rename>nom_region</rename>
-        <default/>
-        <type>String</type>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>624</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>All + Consommation</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>Consommation_AGG</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>id_batiment</name>
-        <field>id_batiment</field>
-      </key>
-      <value>
-        <name>total_eau_m3</name>
-        <rename>total_eau_m3</rename>
-        <default/>
-        <type>Number</type>
-      </value>
-      <value>
-        <name>total_electricite_kwh</name>
-        <rename>total_electricite_kwh</rename>
-        <default/>
-        <type>Number</type>
-      </value>
-      <value>
-        <name>total_gaz_L</name>
-        <rename>total_gaz_L</rename>
-        <default/>
-        <type>Number</type>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>800</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Consommation_AGG</name>
     <type>GroupBy</type>
     <description/>
@@ -1165,9 +1110,6 @@
       <field>
         <name>day_mesure</name>
       </field>
-      <field>
-        <name>hour_mesure</name>
-      </field>
     </group>
     <fields>
       <field>
@@ -1198,8 +1140,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>688</xloc>
-      <yloc>336</yloc>
+      <xloc>576</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1247,8 +1189,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>432</xloc>
-      <yloc>336</yloc>
+      <xloc>560</xloc>
+      <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1333,13 +1275,145 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>576</xloc>
-      <yloc>336</yloc>
+      <xloc>704</xloc>
+      <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>environnement_final 2 2</name>
+    <name>Sort rows</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>id_batiment</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>year_mesure</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>month_mesure</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>day_mesure</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>704</xloc>
+      <yloc>320</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Conso + Batiment </name>
+    <type>StreamLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <from>batiments</from>
+    <input_sorted>N</input_sorted>
+    <preserve_memory>Y</preserve_memory>
+    <sorted_list>N</sorted_list>
+    <integer_pair>N</integer_pair>
+    <lookup>
+      <key>
+        <name>id_batiment</name>
+        <field>id_batiment</field>
+      </key>
+      <value>
+        <name>id_region</name>
+        <rename>id_region</rename>
+        <default/>
+        <type>String</type>
+      </value>
+      <value>
+        <name>nom_batiment</name>
+        <rename>nom_batiment</rename>
+        <default/>
+        <type>String</type>
+      </value>
+      <value>
+        <name>type_batiment</name>
+        <rename>type_batiment</rename>
+        <default/>
+        <type>String</type>
+      </value>
+      <value>
+        <name>surface_m2</name>
+        <rename>surface_m2</rename>
+        <default/>
+        <type>Integer</type>
+      </value>
+      <value>
+        <name>annee_construction</name>
+        <rename>annee_construction</rename>
+        <default/>
+        <type>Integer</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>environnement_final 2</name>
     <type>TextFileOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1363,7 +1437,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${Internal.Entry.Current.Directory}/sum</name>
+      <name>${Internal.Entry.Current.Directory}/testt</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1390,8 +1464,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>688</xloc>
-      <yloc>416</yloc>
+      <xloc>816</xloc>
+      <yloc>272</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

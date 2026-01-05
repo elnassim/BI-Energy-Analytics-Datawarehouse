@@ -1273,12 +1273,6 @@
         <default/>
         <type>Date</type>
       </value>
-      <value>
-        <name>type_energie</name>
-        <rename>type_energie</rename>
-        <default/>
-        <type>String</type>
-      </value>
     </lookup>
     <attributes/>
     <cluster_schema/>

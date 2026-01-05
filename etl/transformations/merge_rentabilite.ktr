@@ -497,6 +497,11 @@
       <to>rentabilite_final</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Paiement_Agg</from>
+      <to>rentabilite_final 2</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Batiments_clean</name>
@@ -946,11 +951,11 @@
       </field>
       <field>
         <name>montant_ttc</name>
-        <type>Integer</type>
-        <format>#,###</format>
+        <type>Number</type>
+        <format>0.00</format>
         <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
+        <decimal>,</decimal>
+        <group/>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -958,10 +963,10 @@
       <field>
         <name>cout_energie</name>
         <type>Integer</type>
-        <format>#,###</format>
+        <format>0.00</format>
         <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
+        <decimal>,</decimal>
+        <group/>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -969,10 +974,10 @@
       <field>
         <name>autres_couts</name>
         <type>Integer</type>
-        <format>#,###</format>
+        <format>0.00</format>
         <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
+        <decimal>,</decimal>
+        <group/>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -1075,11 +1080,11 @@
       </field>
       <field>
         <name>montant_paye</name>
-        <type>Integer</type>
-        <format>#,###</format>
+        <type>Number</type>
+        <format>0.00</format>
         <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
+        <decimal>,</decimal>
+        <group/>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -1664,6 +1669,63 @@
     <GUI>
       <xloc>1168</xloc>
       <yloc>480</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>rentabilite_final 2</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Entry.Current.Directory}/TEST_RENT</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery/>
+    </file>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>768</xloc>
+      <yloc>560</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
