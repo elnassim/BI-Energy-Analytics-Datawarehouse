@@ -442,32 +442,32 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>batiments</from>
+      <from>Batiments</from>
       <to>Sort batiments</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>clients</from>
+      <from>Clients</from>
       <to>Sort clients</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>contrats</from>
+      <from>Contrats</from>
       <to>Sort contrats</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>compteurs</from>
+      <from>Compteurs</from>
       <to>Sort compteurs</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>factures</from>
+      <from>Factures</from>
       <to>Sort factures</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>paiements</from>
+      <from>Paiements</from>
       <to>Sort paiements</to>
       <enabled>Y</enabled>
     </hop>
@@ -477,92 +477,87 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Environnement_all</from>
-      <to>Sort Environnement</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Sort regions</from>
       <to>Replace_Null</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace_Null</from>
-      <to>Trim_Uppercase</to>
+      <to>Select_Values </to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Trim_Uppercase</from>
+      <from>Select_Values </from>
       <to>Remove_Duplicates</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace_Null 2</from>
-      <to>Trim_Uppercase 2</to>
+      <to>Select_Values 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Trim_Uppercase 2</from>
+      <from>Select_Values 2</from>
       <to>Remove_Duplicates 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace_Null 3</from>
-      <to>Trim_Uppercase 3</to>
+      <to>Select_Values 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Trim_Uppercase 3</from>
+      <from>Select_Values 3</from>
       <to>Remove_Duplicates 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace_Null 4</from>
-      <to>Trim_Uppercase 4</to>
+      <to>Select_Values 4</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Trim_Uppercase 4</from>
+      <from>Select_Values 4</from>
       <to>Remove_Duplicates 4</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace_Null 5</from>
-      <to>Trim_Uppercase 5</to>
+      <to>Select_Values 5</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Trim_Uppercase 5</from>
+      <from>Select_Values 5</from>
       <to>Remove_Duplicates 5</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace_Null 6</from>
-      <to>Trim_Uppercase 6</to>
+      <to>Select_Values 6</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Trim_Uppercase 6</from>
+      <from>Select_Values 6</from>
       <to>Remove_Duplicates 6</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace_Null 7</from>
-      <to>Trim_Uppercase 7</to>
+      <to>Select_Values 7</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Trim_Uppercase 7</from>
+      <from>Select_Values 7</from>
       <to>Remove_Duplicates 7</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace_Null 8</from>
-      <to>Trim_Uppercase 8</to>
+      <to>Select_Values 8</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Trim_Uppercase 8</from>
+      <from>Select_Values 8</from>
       <to>Remove_Duplicates 8</to>
       <enabled>Y</enabled>
     </hop>
@@ -617,18 +612,13 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Filtre_Invalide 3</from>
-      <to>Replace_Null 8</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Remove_Duplicates</from>
       <to>Regions_clean</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Filtre_Invalide 4</from>
-      <to>Replace_Null 9</to>
+      <from>Filtre_Invalide 3</from>
+      <to>Replace_Null 8</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -667,13 +657,13 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Select Values 2</from>
-      <to>Filter rows</to>
+      <from>Environnement_all</from>
+      <to>Sort Environnement</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Select Values 2</from>
-      <to>Filtre_Invalide 4</to>
+      <from>Filtre_Invalide 4</from>
+      <to>Replace_Null 9</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -682,28 +672,23 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort Environnement</from>
-      <to>Select Values 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select Values</from>
-      <to>Remove_Duplicates 9</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Replace_Null 9</from>
+      <to>Modified JavaScript value</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort Environnement</from>
+      <to>Filtre_Invalide 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Modified JavaScript value</from>
+      <to>Select Values 9</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select Values 9</from>
       <to>Remove_Duplicates 9</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows</from>
-      <to>Select Values</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows</from>
-      <to>Replace_Null 9</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -905,15 +890,37 @@
     <encoding/>
     <fields>
       <field>
+        <name>id_region</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>id_batiment</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
         <name>compteur_id</name>
         <type>String</type>
         <format/>
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>7</length>
+        <length>-1</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>date_mesure</name>
@@ -924,7 +931,7 @@
         <group>,</group>
         <length>-1</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>consommation</name>
@@ -933,9 +940,9 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>5</length>
-        <precision>3</precision>
-        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>type_energie</name>
@@ -944,9 +951,9 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>3</length>
+        <length>-1</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>unite</name>
@@ -955,9 +962,9 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>2</length>
+        <length>-1</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
     </fields>
     <attributes/>
@@ -1089,159 +1096,6 @@
     </GUI>
   </step>
   <step>
-    <name>Environnement_clean</name>
-    <type>TextFileOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
-    <header>Y</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding>UTF-8</encoding>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>${Internal.Entry.Current.Directory}/Environnement_clean</name>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>csv</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery/>
-    </file>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1296</xloc>
-      <yloc>688</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Environnement_all</name>
-    <type>CsvInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <filename>C:\Users\moha-\OneDrive\Desktop\BI-Energy-Analytics-Datawarehouse\ETL\staging\env_reports_all.csv</filename>
-    <filename_field/>
-    <rownum_field/>
-    <include_filename>N</include_filename>
-    <separator>,</separator>
-    <enclosure>"</enclosure>
-    <header>Y</header>
-    <buffer_size>50000</buffer_size>
-    <lazy_conversion>Y</lazy_conversion>
-    <add_filename_result>N</add_filename_result>
-    <parallel>N</parallel>
-    <newline_possible>N</newline_possible>
-    <format>mixed</format>
-    <encoding/>
-    <fields>
-      <field>
-        <name>id_batiment</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>6</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>id_region</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>date_rapport</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>12</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>emission_CO2_kg</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>6</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>taux_recyclage</name>
-        <type>Number</type>
-        <format>#.##</format>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>4</length>
-        <precision>2</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>144</xloc>
-      <yloc>688</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Factures_clean</name>
     <type>TextFileOutput</type>
     <description/>
@@ -1346,104 +1200,6 @@
     </GUI>
   </step>
   <step>
-    <name>Filtre_Invalide 4</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>Replace_Null 9</send_true_to>
-    <send_false_to/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <conditions>
-          <condition>
-            <negated>N</negated>
-            <leftvalue>emission_CO2_kg</leftvalue>
-            <function>&gt;=</function>
-            <rightvalue/>
-            <value>
-              <name>constant</name>
-              <type>Number</type>
-              <text>0.0</text>
-              <length>-1</length>
-              <precision>-1</precision>
-              <isnull>N</isnull>
-              <mask>#.#</mask>
-            </value>
-          </condition>
-          <condition>
-            <negated>N</negated>
-            <operator>AND</operator>
-            <conditions>
-              <condition>
-                <negated>N</negated>
-                <leftvalue>taux_recyclage</leftvalue>
-                <function>&gt;=</function>
-                <rightvalue/>
-                <value>
-                  <name>constant</name>
-                  <type>Number</type>
-                  <text>0.0</text>
-                  <length>-1</length>
-                  <precision>-1</precision>
-                  <isnull>N</isnull>
-                  <mask>#.#</mask>
-                </value>
-              </condition>
-              <condition>
-                <negated>N</negated>
-                <operator>AND</operator>
-                <conditions>
-                  <condition>
-                    <negated>N</negated>
-                    <leftvalue>taux_recyclage</leftvalue>
-                    <function>&lt;=</function>
-                    <rightvalue/>
-                    <value>
-                      <name>constant</name>
-                      <type>Number</type>
-                      <text>1.0</text>
-                      <length>-1</length>
-                      <precision>-1</precision>
-                      <isnull>N</isnull>
-                      <mask>#.#</mask>
-                    </value>
-                  </condition>
-                  <condition>
-                    <negated>N</negated>
-                    <operator>AND</operator>
-                    <leftvalue>date_rapport</leftvalue>
-                    <function>IS NOT NULL</function>
-                    <rightvalue/>
-                  </condition>
-                </conditions>
-              </condition>
-            </conditions>
-          </condition>
-        </conditions>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>688</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Filtre_Invalide 2</name>
     <type>FilterRows</type>
     <description/>
@@ -1515,9 +1271,54 @@
     <compare>
       <condition>
         <negated>N</negated>
-        <leftvalue/>
-        <function>=</function>
-        <rightvalue/>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>consommation</leftvalue>
+            <function>IS NOT NULL</function>
+            <rightvalue/>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <conditions>
+              <condition>
+                <negated>N</negated>
+                <leftvalue>consommation</leftvalue>
+                <function>&gt;=</function>
+                <rightvalue/>
+                <value>
+                  <name>constant</name>
+                  <type>BigNumber</type>
+                  <text>0.0</text>
+                  <length>-1</length>
+                  <precision>-1</precision>
+                  <isnull>N</isnull>
+                  <mask>######0.0###################;-######0.0###################</mask>
+                </value>
+              </condition>
+              <condition>
+                <negated>N</negated>
+                <operator>AND</operator>
+                <conditions>
+                  <condition>
+                    <negated>N</negated>
+                    <leftvalue>date_mesure</leftvalue>
+                    <function>IS NOT NULL</function>
+                    <rightvalue/>
+                  </condition>
+                  <condition>
+                    <negated>N</negated>
+                    <operator>AND</operator>
+                    <leftvalue>compteur_id</leftvalue>
+                    <function>IS NOT NULL</function>
+                    <rightvalue/>
+                  </condition>
+                </conditions>
+              </condition>
+            </conditions>
+          </condition>
+        </conditions>
       </condition>
     </compare>
     <attributes/>
@@ -1553,6 +1354,7 @@
         <conditions>
           <condition>
             <negated>N</negated>
+            <operator>AND</operator>
             <leftvalue>date_debut</leftvalue>
             <function>IS NOT NULL</function>
             <rightvalue/>
@@ -1560,16 +1362,21 @@
           <condition>
             <negated>N</negated>
             <operator>AND</operator>
-            <leftvalue>date_fin</leftvalue>
-            <function>IS NULL</function>
-            <rightvalue>date_fin</rightvalue>
-          </condition>
-          <condition>
-            <negated>N</negated>
-            <operator>OR</operator>
-            <leftvalue>date_fin</leftvalue>
-            <function>&gt;=</function>
-            <rightvalue>date_debut</rightvalue>
+            <conditions>
+              <condition>
+                <negated>N</negated>
+                <leftvalue>date_fin</leftvalue>
+                <function>&gt;=</function>
+                <rightvalue>date_debut</rightvalue>
+              </condition>
+              <condition>
+                <negated>N</negated>
+                <operator>OR</operator>
+                <leftvalue>date_fin</leftvalue>
+                <function>IS NULL</function>
+                <rightvalue/>
+              </condition>
+            </conditions>
           </condition>
         </conditions>
       </condition>
@@ -1678,7 +1485,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>10</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -1689,7 +1496,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>100</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -1700,7 +1507,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -1711,7 +1518,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -1963,45 +1770,6 @@
     </GUI>
   </step>
   <step>
-    <name>Remove_Duplicates 9</name>
-    <type>Unique</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field/>
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description/>
-    <fields>
-      <field>
-        <name>id_batiment</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-      <field>
-        <name>id_region</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1136</xloc>
-      <yloc>688</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Remove_Duplicates 6</name>
     <type>Unique</type>
     <description/>
@@ -2086,7 +1854,16 @@
     <count_field/>
     <reject_duplicate_row>N</reject_duplicate_row>
     <error_description/>
-    <fields>      </fields>
+    <fields>
+      <field>
+        <name>compteur_id</name>
+        <case_insensitive>Y</case_insensitive>
+      </field>
+      <field>
+        <name>date_mesure</name>
+        <case_insensitive>Y</case_insensitive>
+      </field>
+    </fields>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -2292,52 +2069,6 @@
     </GUI>
   </step>
   <step>
-    <name>Replace_Null 9</name>
-    <type>IfNull</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <replaceAllByValue/>
-    <replaceAllMask/>
-    <selectFields>Y</selectFields>
-    <selectValuesType>N</selectValuesType>
-    <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      <field>
-        <name>emission_CO2_kg</name>
-        <value>0</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>taux_recyclage</name>
-        <value>0</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>832</xloc>
-      <yloc>688</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Replace_Null 5</name>
     <type>IfNull</type>
     <description/>
@@ -2488,984 +2219,24 @@
     </partitioning>
     <replaceAllByValue/>
     <replaceAllMask/>
-    <selectFields>N</selectFields>
+    <selectFields>Y</selectFields>
     <selectValuesType>N</selectValuesType>
     <setEmptyStringAll>N</setEmptyStringAll>
     <valuetypes>
       </valuetypes>
     <fields>
-      </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>608</xloc>
-      <yloc>608</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trim_Uppercase</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>id_region</name>
-        <rename/>
-      </field>
-      <field>
-        <name>nom_region</name>
-        <rename/>
-      </field>
-      <field>
-        <name>created_at</name>
-        <rename/>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>id_region</name>
-        <rename>id_region</rename>
-        <type>String</type>
-        <length>10</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>nom_region</name>
-        <rename>nom_region</rename>
-        <type>String</type>
-        <length>100</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>608</xloc>
-      <yloc>48</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trim_Uppercase 2</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>id_batiment</name>
-        <rename/>
-      </field>
-      <field>
-        <name>id_region</name>
-        <rename/>
-      </field>
-      <field>
-        <name>nom_batiment</name>
-        <rename/>
-      </field>
-      <field>
-        <name>type_batiment</name>
-        <rename/>
-      </field>
-      <field>
-        <name>surface_m2</name>
-        <rename/>
-      </field>
-      <field>
-        <name>annee_construction</name>
-        <rename/>
-      </field>
-      <field>
-        <name>created_at</name>
-        <rename/>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>id_batiment</name>
-        <rename>id_batiment</rename>
-        <type>String</type>
-        <length>7</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>id_region</name>
-        <rename>id_region</rename>
-        <type>String</type>
-        <length>7</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>nom_batiment</name>
-        <rename>nom_batiment</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>type_batiment</name>
-        <rename>type_batiment</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>surface_m2</name>
-        <rename>surface_m2</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>annee_construction</name>
-        <rename>annee_construction</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>608</xloc>
-      <yloc>128</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trim_Uppercase 3</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>id_client</name>
-        <rename/>
-      </field>
-      <field>
-        <name>nom_client</name>
-        <rename/>
-      </field>
-      <field>
-        <name>email</name>
-        <rename/>
-      </field>
-      <field>
-        <name>telephone</name>
-        <rename/>
-      </field>
-      <field>
-        <name>segment</name>
-        <rename/>
-      </field>
-      <field>
-        <name>created_at</name>
-        <rename/>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>id_client</name>
-        <rename>id_client</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>nom_client</name>
-        <rename>nom_client</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>email</name>
-        <rename>email</rename>
-        <type>String</type>
-        <length>60</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>telephone</name>
-        <rename>telephone</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>segment</name>
-        <rename>segment</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>608</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trim_Uppercase 4</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>id_contrat</name>
-        <rename/>
-      </field>
-      <field>
-        <name>id_client</name>
-        <rename/>
-      </field>
-      <field>
-        <name>id_batiment</name>
-        <rename/>
-      </field>
-      <field>
-        <name>date_debut</name>
-        <rename/>
-      </field>
-      <field>
-        <name>date_fin</name>
-        <rename/>
-      </field>
-      <field>
-        <name>statut</name>
-        <rename/>
-      </field>
-      <field>
-        <name>created_at</name>
-        <rename/>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>id_contrat</name>
-        <rename>id_contrat</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>id_client</name>
-        <rename>id_client</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>id_batiment</name>
-        <rename>id_batiment</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>date_debut</name>
-        <rename>date_debut</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>date_fin</name>
-        <rename>date_fin</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>statut</name>
-        <rename>statut</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>768</xloc>
-      <yloc>288</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort Environnement</name>
-    <type>SortRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory/>
-    <compress>N</compress>
-    <compress_variable/>
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>id_batiment</name>
-        <ascending>Y</ascending>
-        <case_sensitive>Y</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>304</xloc>
-      <yloc>688</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trim_Uppercase 5</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>compteur_id</name>
-        <rename/>
-      </field>
-      <field>
-        <name>id_batiment</name>
-        <rename/>
-      </field>
       <field>
         <name>type_energie</name>
-        <rename/>
+        <value>N/A</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
       </field>
       <field>
         <name>unite</name>
-        <rename/>
+        <value>N/A</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
       </field>
-      <field>
-        <name>installation_date</name>
-        <rename/>
-      </field>
-      <field>
-        <name>statut</name>
-        <rename/>
-      </field>
-      <field>
-        <name>created_at</name>
-        <rename/>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>compteur_id</name>
-        <rename>compteur_id</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>id_batiment</name>
-        <rename>id_batiment</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>type_energie</name>
-        <rename>type_energie</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>unite</name>
-        <rename>unite</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>installation_date</name>
-        <rename>installation_date</rename>
-        <type>Date</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>statut</name>
-        <rename>statut</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>768</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trim_Uppercase 6</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>id_facture</name>
-        <rename/>
-      </field>
-      <field>
-        <name>id_contrat</name>
-        <rename/>
-      </field>
-      <field>
-        <name>periode_debut</name>
-        <rename/>
-      </field>
-      <field>
-        <name>periode_fin</name>
-        <rename/>
-      </field>
-      <field>
-        <name>montant_ttc</name>
-        <rename/>
-      </field>
-      <field>
-        <name>cout_energie</name>
-        <rename/>
-      </field>
-      <field>
-        <name>autres_couts</name>
-        <rename/>
-      </field>
-      <field>
-        <name>statut</name>
-        <rename/>
-      </field>
-      <field>
-        <name>date_facture</name>
-        <rename/>
-      </field>
-      <field>
-        <name>created_at</name>
-        <rename/>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>id_facture</name>
-        <rename>id_facture</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>id_contrat</name>
-        <rename>id_contrat</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>periode_debut</name>
-        <rename>periode_debut</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>periode_fin</name>
-        <rename>periode_fin</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>montant_ttc</name>
-        <rename>montant_ttc</rename>
-        <type>Number</type>
-        <length>15</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>cout_energie</name>
-        <rename>cout_energie</rename>
-        <type>Number</type>
-        <length>15</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>autres_couts</name>
-        <rename>autres_couts</rename>
-        <type>Number</type>
-        <length>15</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>statut</name>
-        <rename>statut</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>date_facture</name>
-        <rename>date_facture</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -3477,216 +2248,6 @@
     </remotesteps>
     <GUI>
       <xloc>608</xloc>
-      <yloc>448</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trim_Uppercase 7</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>date_paiement</name>
-        <rename/>
-      </field>
-      <field>
-        <name>montant_paye</name>
-        <rename/>
-      </field>
-      <field>
-        <name>id_paiement</name>
-        <rename/>
-      </field>
-      <field>
-        <name>id_facture</name>
-        <rename/>
-      </field>
-      <field>
-        <name>mode_paiement</name>
-        <rename/>
-      </field>
-      <field>
-        <name>statut</name>
-        <rename/>
-      </field>
-      <field>
-        <name>created_at</name>
-        <rename/>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>date_paiement</name>
-        <rename>date_paiement</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>montant_paye</name>
-        <rename>montant_paye</rename>
-        <type>Integer</type>
-        <length>30</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>id_paiement</name>
-        <rename>id_paiement</rename>
-        <type>Date</type>
-        <length>30</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>id_facture</name>
-        <rename>id_facture</rename>
-        <type>Number</type>
-        <length>30</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>mode_paiement</name>
-        <rename>mode_paiement</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>statut</name>
-        <rename>statut</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>768</xloc>
-      <yloc>528</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Trim_Uppercase 8</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>compteur_id</name>
-        <rename/>
-      </field>
-      <field>
-        <name>date_mesure</name>
-        <rename/>
-      </field>
-      <field>
-        <name>consommation</name>
-        <rename/>
-      </field>
-      <field>
-        <name>type_energie</name>
-        <rename/>
-      </field>
-      <field>
-        <name>unite</name>
-        <rename/>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>768</xloc>
       <yloc>608</yloc>
       <draw>Y</draw>
     </GUI>
@@ -4028,7 +2589,7 @@
     </GUI>
   </step>
   <step>
-    <name>Select Values 2</name>
+    <name>Select_Values </name>
     <type>SelectValues</type>
     <description/>
     <distribute>Y</distribute>
@@ -4040,48 +2601,27 @@
     </partitioning>
     <fields>
       <field>
-        <name>id_batiment</name>
-        <rename/>
-      </field>
-      <field>
         <name>id_region</name>
         <rename/>
       </field>
       <field>
-        <name>date_rapport</name>
+        <name>nom_region</name>
         <rename/>
       </field>
       <field>
-        <name>emission_CO2_kg</name>
+        <name>created_at</name>
         <rename/>
       </field>
       <field>
-        <name>taux_recyclage</name>
+        <name>updated_at</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
-        <name>id_batiment</name>
-        <rename>id_batiment</rename>
-        <type>String</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
         <name>id_region</name>
         <rename>id_region</rename>
         <type>String</type>
-        <length>30</length>
+        <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -4095,10 +2635,10 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>date_rapport</name>
-        <rename>date_rapport</rename>
+        <name>nom_region</name>
+        <rename>nom_region</rename>
         <type>String</type>
-        <length>30</length>
+        <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -4108,40 +2648,6 @@
         <encoding/>
         <decimal_symbol/>
         <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>emission_CO2_kg</name>
-        <rename>emission_CO2_kg</rename>
-        <type>Number</type>
-        <length>30</length>
-        <precision>2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol>.</grouping_symbol>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>taux_recyclage</name>
-        <rename>taux_recyclage</rename>
-        <type>Number</type>
-        <length>30</length>
-        <precision>2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol>.</grouping_symbol>
         <currency_symbol/>
         <storage_type/>
       </meta>
@@ -4155,57 +2661,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>448</xloc>
-      <yloc>688</yloc>
+      <xloc>608</xloc>
+      <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Filter rows</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>Replace_Null 9</send_true_to>
-    <send_false_to>Select Values</send_false_to>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue>date_rapport</leftvalue>
-        <function>REGEXP</function>
-        <rightvalue/>
-        <value>
-          <name>constant</name>
-          <type>String</type>
-          <text>^\d{4}-\d{2}-\d{2}$</text>
-          <length>-1</length>
-          <precision>-1</precision>
-          <isnull>N</isnull>
-          <mask/>
-        </value>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>768</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select Values</name>
+    <name>Select_Values 2</name>
     <type>SelectValues</type>
     <description/>
     <distribute>Y</distribute>
@@ -4225,15 +2687,27 @@
         <rename/>
       </field>
       <field>
-        <name>date_rapport</name>
+        <name>nom_batiment</name>
         <rename/>
       </field>
       <field>
-        <name>emission_CO2_kg</name>
+        <name>type_batiment</name>
         <rename/>
       </field>
       <field>
-        <name>taux_recyclage</name>
+        <name>surface_m2</name>
+        <rename/>
+      </field>
+      <field>
+        <name>annee_construction</name>
+        <rename/>
+      </field>
+      <field>
+        <name>created_at</name>
+        <rename/>
+      </field>
+      <field>
+        <name>updated_at</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
@@ -4241,7 +2715,7 @@
         <name>id_batiment</name>
         <rename>id_batiment</rename>
         <type>String</type>
-        <length>30</length>
+        <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -4258,7 +2732,7 @@
         <name>id_region</name>
         <rename>id_region</rename>
         <type>String</type>
-        <length>30</length>
+        <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -4272,27 +2746,330 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>date_rapport</name>
-        <rename>date_rapport</rename>
+        <name>nom_batiment</name>
+        <rename>nom_batiment</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>type_batiment</name>
+        <rename>type_batiment</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>surface_m2</name>
+        <rename>surface_m2</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>annee_construction</name>
+        <rename>annee_construction</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>608</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select_Values 3</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>id_client</name>
+        <rename/>
+      </field>
+      <field>
+        <name>nom_client</name>
+        <rename/>
+      </field>
+      <field>
+        <name>email</name>
+        <rename/>
+      </field>
+      <field>
+        <name>telephone</name>
+        <rename/>
+      </field>
+      <field>
+        <name>segment</name>
+        <rename/>
+      </field>
+      <field>
+        <name>created_at</name>
+        <rename/>
+      </field>
+      <field>
+        <name>updated_at</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>id_client</name>
+        <rename>id_client</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>nom_client</name>
+        <rename>nom_client</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>email</name>
+        <rename>email</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>telephone</name>
+        <rename>telephone</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>segment</name>
+        <rename>segment</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>608</xloc>
+      <yloc>208</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select_Values 4</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>id_contrat</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_client</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_batiment</name>
+        <rename/>
+      </field>
+      <field>
+        <name>date_debut</name>
+        <rename/>
+      </field>
+      <field>
+        <name>date_fin</name>
+        <rename/>
+      </field>
+      <field>
+        <name>statut</name>
+        <rename/>
+      </field>
+      <field>
+        <name>created_at</name>
+        <rename/>
+      </field>
+      <field>
+        <name>updated_at</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>id_contrat</name>
+        <rename>id_contrat</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>id_client</name>
+        <rename>id_client</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>id_batiment</name>
+        <rename>id_batiment</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>date_debut</name>
+        <rename>date_debut</rename>
         <type>Date</type>
-        <length>30</length>
-        <precision>-2</precision>
-        <conversion_mask>MMM dd, yyyy</conversion_mask>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale>es_US</date_format_locale>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>emission_CO2_kg</name>
-        <rename>emission_CO2_kg</rename>
-        <type>Number</type>
-        <length>30</length>
+        <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -4306,10 +3083,27 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>taux_recyclage</name>
-        <rename>taux_recyclage</rename>
-        <type>Number</type>
-        <length>30</length>
+        <name>date_fin</name>
+        <rename>date_fin</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>statut</name>
+        <rename>statut</rename>
+        <type>String</type>
+        <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -4332,13 +3126,737 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>832</xloc>
-      <yloc>768</yloc>
+      <xloc>768</xloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>batiments</name>
+    <name>Select_Values 5</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>compteur_id</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_batiment</name>
+        <rename/>
+      </field>
+      <field>
+        <name>type_energie</name>
+        <rename/>
+      </field>
+      <field>
+        <name>unite</name>
+        <rename/>
+      </field>
+      <field>
+        <name>installation_date</name>
+        <rename/>
+      </field>
+      <field>
+        <name>statut</name>
+        <rename/>
+      </field>
+      <field>
+        <name>created_at</name>
+        <rename/>
+      </field>
+      <field>
+        <name>updated_at</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>compteur_id</name>
+        <rename>compteur_id</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>id_batiment</name>
+        <rename>id_batiment</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>type_energie</name>
+        <rename>type_energie</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>unite</name>
+        <rename>unite</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>installation_date</name>
+        <rename>installation_date</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>statut</name>
+        <rename>statut</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>768</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select_Values 6</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>id_facture</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_contrat</name>
+        <rename/>
+      </field>
+      <field>
+        <name>periode_debut</name>
+        <rename/>
+      </field>
+      <field>
+        <name>periode_fin</name>
+        <rename/>
+      </field>
+      <field>
+        <name>montant_ttc</name>
+        <rename/>
+      </field>
+      <field>
+        <name>cout_energie</name>
+        <rename/>
+      </field>
+      <field>
+        <name>autres_couts</name>
+        <rename/>
+      </field>
+      <field>
+        <name>statut</name>
+        <rename/>
+      </field>
+      <field>
+        <name>date_facture</name>
+        <rename/>
+      </field>
+      <field>
+        <name>created_at</name>
+        <rename/>
+      </field>
+      <field>
+        <name>updated_at</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>id_facture</name>
+        <rename>id_facture</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>id_contrat</name>
+        <rename>id_contrat</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>periode_debut</name>
+        <rename>periode_debut</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>periode_fin</name>
+        <rename>periode_fin</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>montant_ttc</name>
+        <rename>montant_ttc</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>cout_energie</name>
+        <rename>cout_energie</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>autres_couts</name>
+        <rename>autres_couts</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>statut</name>
+        <rename>statut</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>date_facture</name>
+        <rename>date_facture</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>608</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select_Values 7</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>date_paiement</name>
+        <rename/>
+      </field>
+      <field>
+        <name>montant_paye</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_paiement</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_facture</name>
+        <rename/>
+      </field>
+      <field>
+        <name>mode_paiement</name>
+        <rename/>
+      </field>
+      <field>
+        <name>statut</name>
+        <rename/>
+      </field>
+      <field>
+        <name>created_at</name>
+        <rename/>
+      </field>
+      <field>
+        <name>updated_at</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>id_paiement</name>
+        <rename>id_paiement</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>id_facture</name>
+        <rename>id_facture</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>date_paiement</name>
+        <rename>date_paiement</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy/MM/dd HH:mm:ss.SSS</conversion_mask>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>montant_paye</name>
+        <rename>montant_paye</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>mode_paiement</name>
+        <rename>mode_paiement</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>statut</name>
+        <rename>statut</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>768</xloc>
+      <yloc>528</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select_Values 8</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>id_region</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_batiment</name>
+        <rename/>
+      </field>
+      <field>
+        <name>compteur_id</name>
+        <rename/>
+      </field>
+      <field>
+        <name>date_mesure</name>
+        <rename/>
+      </field>
+      <field>
+        <name>consommation</name>
+        <rename/>
+      </field>
+      <field>
+        <name>type_energie</name>
+        <rename/>
+      </field>
+      <field>
+        <name>unite</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>id_region</name>
+        <rename>id_region</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>id_batiment</name>
+        <rename>id_batiment</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>compteur_id</name>
+        <rename>compteur_id</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>date_mesure</name>
+        <rename>date_mesure</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>consommation</name>
+        <rename>consommation</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>type_energie</name>
+        <rename>type_energie</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>unite</name>
+        <rename>unite</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>768</xloc>
+      <yloc>608</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Batiments</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -4370,7 +3888,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>7</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4381,7 +3899,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>5</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4392,7 +3910,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>30</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4403,7 +3921,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>17</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4414,9 +3932,9 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>annee_construction</name>
@@ -4425,9 +3943,9 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>0</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>created_at</name>
@@ -4436,9 +3954,9 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>updated_at</name>
@@ -4447,9 +3965,9 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
       </field>
     </fields>
     <attributes/>
@@ -4467,7 +3985,7 @@
     </GUI>
   </step>
   <step>
-    <name>clients</name>
+    <name>Clients</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -4499,8 +4017,8 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
+        <length>-1</length>
+        <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
@@ -4510,7 +4028,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>16</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4521,7 +4039,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>26</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4532,7 +4050,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4543,7 +4061,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>14</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4554,7 +4072,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4565,7 +4083,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4585,7 +4103,7 @@
     </GUI>
   </step>
   <step>
-    <name>compteurs</name>
+    <name>Compteurs</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -4617,7 +4135,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>8</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4628,7 +4146,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>6</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4639,7 +4157,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>3</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4650,7 +4168,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>3</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4672,7 +4190,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>11</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4683,7 +4201,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4694,7 +4212,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4714,7 +4232,7 @@
     </GUI>
   </step>
   <step>
-    <name>contrats</name>
+    <name>Contrats</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -4746,8 +4264,8 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
+        <length>-1</length>
+        <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
       <field>
@@ -4757,8 +4275,8 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
+        <length>-1</length>
+        <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
       <field>
@@ -4768,7 +4286,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>6</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4801,7 +4319,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>8</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4812,7 +4330,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4823,7 +4341,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4843,7 +4361,7 @@
     </GUI>
   </step>
   <step>
-    <name>factures</name>
+    <name>Factures</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -4875,7 +4393,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4886,7 +4404,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4919,7 +4437,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4930,7 +4448,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4941,7 +4459,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4952,7 +4470,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>10</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -4974,7 +4492,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -4985,7 +4503,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -5005,7 +4523,7 @@
     </GUI>
   </step>
   <step>
-    <name>paiements</name>
+    <name>Paiements</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -5031,37 +4549,15 @@
     <encoding/>
     <fields>
       <field>
-        <name>date_paiement</name>
-        <type>Date</type>
-        <format>yyyy/MM/dd HH:mm:ss.SSS</format>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>montant_paye</name>
-        <type>Integer</type>
-        <format>#,###</format>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
         <name>id_paiement</name>
         <type>Integer</type>
         <format>#</format>
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>id_facture</name>
@@ -5070,9 +4566,31 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>date_paiement</name>
+        <type>Date</type>
+        <format>yyyy/MM/dd HH:mm:ss.SSS</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>montant_paye</name>
+        <type>Integer</type>
+        <format>#,###</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
       </field>
       <field>
         <name>mode_paiement</name>
@@ -5081,7 +4599,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>11</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -5092,7 +4610,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>10</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>both</trim_type>
       </field>
@@ -5103,7 +4621,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -5114,7 +4632,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>29</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -5130,6 +4648,662 @@
     <GUI>
       <xloc>144</xloc>
       <yloc>528</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Environnement_all</name>
+    <type>CsvInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <filename>C:\Users\moha-\OneDrive\Desktop\BI-Energy-Analytics-Datawarehouse\ETL\staging\env_reports_all.csv</filename>
+    <filename_field/>
+    <rownum_field/>
+    <include_filename>N</include_filename>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>Y</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <format>mixed</format>
+    <encoding/>
+    <fields>
+      <field>
+        <name>id_batiment</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>id_region</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>date_rapport</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>emission_CO2_kg</name>
+        <type>Number</type>
+        <format>#.#</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>taux_recyclage</name>
+        <type>Number</type>
+        <format>#.##</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>144</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Environnement_clean</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Entry.Current.Directory}/Environnement_clean</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery/>
+    </file>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1232</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filtre_Invalide 4</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Replace_Null 9</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <leftvalue>emission_CO2_kg</leftvalue>
+            <function>&gt;=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Number</type>
+              <text>0.0</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask>#.#</mask>
+            </value>
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <conditions>
+              <condition>
+                <negated>N</negated>
+                <leftvalue>taux_recyclage</leftvalue>
+                <function>&gt;=</function>
+                <rightvalue/>
+                <value>
+                  <name>constant</name>
+                  <type>Number</type>
+                  <text>0.0</text>
+                  <length>-1</length>
+                  <precision>-1</precision>
+                  <isnull>N</isnull>
+                  <mask>#.#</mask>
+                </value>
+              </condition>
+              <condition>
+                <negated>N</negated>
+                <operator>AND</operator>
+                <conditions>
+                  <condition>
+                    <negated>N</negated>
+                    <leftvalue>taux_recyclage</leftvalue>
+                    <function>&lt;=</function>
+                    <rightvalue/>
+                    <value>
+                      <name>constant</name>
+                      <type>Number</type>
+                      <text>1.0</text>
+                      <length>-1</length>
+                      <precision>-1</precision>
+                      <isnull>N</isnull>
+                      <mask>#.#</mask>
+                    </value>
+                  </condition>
+                  <condition>
+                    <negated>N</negated>
+                    <operator>AND</operator>
+                    <leftvalue>date_rapport</leftvalue>
+                    <function>IS NOT NULL</function>
+                    <rightvalue/>
+                  </condition>
+                </conditions>
+              </condition>
+            </conditions>
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>448</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Remove_Duplicates 9</name>
+    <type>Unique</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <count_rows>N</count_rows>
+    <count_field/>
+    <reject_duplicate_row>N</reject_duplicate_row>
+    <error_description/>
+    <fields>
+      <field>
+        <name>date_rapport</name>
+        <case_insensitive>N</case_insensitive>
+      </field>
+      <field>
+        <name>id_batiment</name>
+        <case_insensitive>N</case_insensitive>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1072</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Replace_Null 9</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue/>
+    <replaceAllMask/>
+    <selectFields>Y</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      <field>
+        <name>emission_CO2_kg</name>
+        <value>0</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>taux_recyclage</name>
+        <value>0</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>576</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort Environnement</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>id_batiment</name>
+        <ascending>Y</ascending>
+        <case_sensitive>Y</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Modified JavaScript value</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>var dateStr = date_rapport;
+
+if (dateStr != null &amp;&amp; dateStr !== "") {
+    dateStr = dateStr.trim();
+
+    // Map month names
+    var months = {
+        jan: "01", feb: "02", mar: "03", apr: "04",
+        may: "05", jun: "06", jul: "07", aug: "08",
+        sep: "09", oct: "10", nov: "11", dec: "12"
+    };
+
+    // Feb 05, 2025 or February 05, 2025 ✅ SAFE
+    if (/^[A-Za-z]{3,9}\s+\d{1,2},\s*\d{4}$/.test(dateStr)) {
+        var parts = dateStr.replace(",", "").split(/\s+/);
+        var mon = months[parts[0].substring(0,3).toLowerCase()];
+        if (mon) {
+            date_rapport = 
+                parts[2] + "-" + 
+                mon + "-" + 
+                ("0" + parts[1]).slice(-2);
+        }
+    }
+
+    // yyyy-dd-MM (détecté comme invalide, on swap)
+    else if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+        var p = dateStr.split("-");
+        var mid = parseInt(p[1], 10);
+        var last = parseInt(p[2], 10);
+        
+        // Si le mois > 12, c'est probablement yyyy-dd-MM
+        if (mid > 12) {
+            date_rapport = 
+                p[0] + "-" + 
+                ("0" + p[2]).slice(-2) + "-" + 
+                ("0" + p[1]).slice(-2);
+        } 
+        // Si le jour (dernier) > 12 et mois &lt;= 12, c'est bon
+        else {
+            date_rapport = dateStr;
+        }
+    }
+
+    // dd/MM/yyyy OU MM/dd/yyyy (PROBLÈME ICI !)
+    // On détecte si c'est américain ou européen
+    else if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(dateStr)) {
+        var p = dateStr.split("/");
+        var first = parseInt(p[0], 10);
+        var second = parseInt(p[1], 10);
+        
+        // Si first > 12, c'est forcément dd/MM/yyyy (européen)
+        if (first > 12) {
+            date_rapport = p[2] + "-" + 
+                ("0" + p[1]).slice(-2) + "-" + 
+                ("0" + p[0]).slice(-2);
+        }
+        // Si second > 12, c'est forcément MM/dd/yyyy (américain)
+        else if (second > 12) {
+            date_rapport = p[2] + "-" + 
+                ("0" + p[0]).slice(-2) + "-" + 
+                ("0" + p[1]).slice(-2);
+        }
+        // Ambiguïté (ex: 03/05/2025) - on suppose américain MM/dd/yyyy
+        else {
+            date_rapport = p[2] + "-" + 
+                ("0" + p[0]).slice(-2) + "-" + 
+                ("0" + p[1]).slice(-2);
+        }
+    }
+
+    // yyyy/MM/dd
+    else if (/^\d{4}\/\d{1,2}\/\d{1,2}$/.test(dateStr)) {
+        var p = dateStr.split("/");
+        date_rapport = p[0] + "-" + 
+            ("0" + p[1]).slice(-2) + "-" + 
+            ("0" + p[2]).slice(-2);
+    }
+
+    // dd.MM.yyyy (européen avec point)
+    else if (/^\d{1,2}\.\d{1,2}\.\d{4}$/.test(dateStr)) {
+        var p = dateStr.split(".");
+        date_rapport = p[2] + "-" + 
+            ("0" + p[1]).slice(-2) + "-" + 
+            ("0" + p[0]).slice(-2);
+    }
+
+    // dd-MM-yyyy (européen avec tiret mais pas yyyy-MM-dd)
+    else if (/^\d{1,2}-\d{1,2}-\d{4}$/.test(dateStr)) {
+        var p = dateStr.split("-");
+        date_rapport = p[2] + "-" + 
+            ("0" + p[1]).slice(-2) + "-" + 
+            ("0" + p[0]).slice(-2);
+    }
+
+    // YYYYMMDD (8 chiffres collés)
+    else if (/^\d{8}$/.test(dateStr)) {
+        date_rapport = 
+            dateStr.substring(0, 4) + "-" + 
+            dateStr.substring(4, 6) + "-" + 
+            dateStr.substring(6, 8);
+    }
+}</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>date_rapport</name>
+        <rename>date_rapport</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>736</xloc>
+      <yloc>688</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select Values 9</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>id_batiment</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_region</name>
+        <rename/>
+      </field>
+      <field>
+        <name>date_rapport_1</name>
+        <rename>date_rapport</rename>
+      </field>
+      <field>
+        <name>emission_CO2_kg</name>
+        <rename/>
+      </field>
+      <field>
+        <name>taux_recyclage</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>id_batiment</name>
+        <rename>id_batiment</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>id_region</name>
+        <rename>id_region</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>date_rapport</name>
+        <rename>date_rapport</rename>
+        <type>Date</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>emission_CO2_kg</name>
+        <rename>emission_CO2_kg</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>taux_recyclage</name>
+        <rename>taux_recyclage</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>688</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
