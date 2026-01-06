@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>load_dim_environnement</name>
+    <name>load_fact_envirommental</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -427,18 +428,18 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2026/01/05 04:46:53.671</created_date>
+    <created_date>2026/01/04 16:48:19.797</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2026/01/05 04:46:53.671</modified_date>
+    <modified_date>2026/01/04 16:48:19.797</modified_date>
     <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
     <notepad>
-      <note>Load de dimensions de datamart dm_impact_environnemental</note>
-      <xloc>912</xloc>
-      <yloc>192</yloc>
-      <width>424</width>
+      <note>Load de Fact table de datamart dm_impact_environnemental</note>
+      <xloc>800</xloc>
+      <yloc>96</yloc>
+      <width>413</width>
       <heigth>30</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
@@ -490,6 +491,10 @@
         <attribute>N</attribute>
       </attribute>
       <attribute>
+        <code>MSSQL_DOUBLE_DECIMAL_SEPARATOR</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
         <code>PORT_NUMBER</code>
         <attribute>3306</attribute>
       </attribute>
@@ -521,66 +526,464 @@
   </connection>
   <order>
     <hop>
-      <from>dim_batiment</from>
-      <to>Stream lookup</to>
+      <from>dim_regions</from>
+      <to>dim_batiment 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Select values</from>
-      <to>Table output</to>
+      <from>dim_temps</from>
+      <to>dim_regions</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Stream lookup</from>
-      <to>Select values</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>dim_region</from>
-      <to>Stream lookup</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>dim_region</from>
-      <to>Select values 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values 2</from>
-      <to>Table output 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>dim_type_energie</from>
-      <to>Table output 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Generate_Dates</from>
-      <to>Add_Day_Number</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Calculator</from>
-      <to>Select values 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values 3</from>
-      <to>Table output 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add_Day_Number</from>
+      <from>CSV file input</from>
       <to>Modified JavaScript value</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Modified JavaScript value</from>
+      <to>Select values</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values</from>
+      <to>dim_temps</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>dim_batiment 2</from>
+      <to>emission_co2_kg</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>emission_co2_kg</from>
+      <to>emission_co2_par_m2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculator</from>
+      <to>Select values 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>emission_co2_par_m2</from>
       <to>Calculator</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Select values 2</from>
+      <to>Table output</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
+  <step>
+    <name>CSV file input</name>
+    <type>CsvInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <filename>C:\Users\moha-\OneDrive\Desktop\BI-Energy-Analytics-Datawarehouse\ETL\Transformations\Fait_Impact_Env.csv</filename>
+    <filename_field/>
+    <rownum_field/>
+    <include_filename>N</include_filename>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>Y</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <format>mixed</format>
+    <encoding/>
+    <fields>
+      <field>
+        <name>id_batiment</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>year_mesure</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>month_mesure</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>day_mesure</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>total_eau_m3</name>
+        <type>BigNumber</type>
+        <format>#.###</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>3</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>total_electricite_kwh</name>
+        <type>BigNumber</type>
+        <format>#.##</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>2</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>total_gaz_L</name>
+        <type>BigNumber</type>
+        <format>#.###</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>3</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>id_region</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>nom_batiment</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>type_batiment</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>surface_m2</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>annee_construction</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>date_rapport</name>
+        <type>Date</type>
+        <format>yyyy-MM-dd</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>emission_CO2_kg</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>taux_recyclage</name>
+        <type>BigNumber</type>
+        <format>#.##</format>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>2</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>nom_region</name>
+        <type>String</type>
+        <format/>
+        <currency>USD</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>128</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>dim_regions</name>
+    <type>DBLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>exam</connection>
+    <cache>N</cache>
+    <cache_load_all>N</cache_load_all>
+    <cache_size>0</cache_size>
+    <lookup>
+      <schema>dm_impact_environnemental</schema>
+      <table>dim_region</table>
+      <orderby/>
+      <fail_on_multiple>N</fail_on_multiple>
+      <eat_row_on_failure>N</eat_row_on_failure>
+      <key>
+        <name>id_region</name>
+        <field>code_region</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>id_region</name>
+        <rename>dim_id_region</rename>
+        <default/>
+        <type>None</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>704</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>dim_temps</name>
+    <type>DBLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>exam</connection>
+    <cache>N</cache>
+    <cache_load_all>N</cache_load_all>
+    <cache_size>0</cache_size>
+    <lookup>
+      <schema>dm_impact_environnemental</schema>
+      <table>dim_temps</table>
+      <orderby/>
+      <fail_on_multiple>N</fail_on_multiple>
+      <eat_row_on_failure>N</eat_row_on_failure>
+      <key>
+        <name>date_mesure</name>
+        <field>date_complete</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>id_temps</name>
+        <rename>dim_id_temps</rename>
+        <default/>
+        <type>Integer</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>576</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>dim_batiment 2</name>
+    <type>DBLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>exam</connection>
+    <cache>N</cache>
+    <cache_load_all>N</cache_load_all>
+    <cache_size>0</cache_size>
+    <lookup>
+      <schema>dm_impact_environnemental</schema>
+      <table>dim_batiment</table>
+      <orderby/>
+      <fail_on_multiple>N</fail_on_multiple>
+      <eat_row_on_failure>N</eat_row_on_failure>
+      <key>
+        <name>id_batiment</name>
+        <field>code_batiment</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>id_batiment</name>
+        <rename>dim_id_batiment</rename>
+        <default/>
+        <type>Integer</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>832</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Modified JavaScript value</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>//Script here
+
+var date_mesure = new Date(year_mesure, month_mesure - 1, day_mesure);
+</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>date_mesure</name>
+        <rename>date_mesure</rename>
+        <type>Date</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>288</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Select values</name>
     <type>SelectValues</type>
@@ -595,28 +998,197 @@
     <fields>
       <field>
         <name>id_batiment</name>
+        <rename/>
+      </field>
+      <field>
+        <name>year_mesure</name>
+        <rename/>
+      </field>
+      <field>
+        <name>month_mesure</name>
+        <rename/>
+      </field>
+      <field>
+        <name>day_mesure</name>
+        <rename/>
+      </field>
+      <field>
+        <name>total_eau_m3</name>
+        <rename/>
+      </field>
+      <field>
+        <name>total_electricite_kwh</name>
+        <rename/>
+      </field>
+      <field>
+        <name>total_gaz_L</name>
+        <rename/>
+      </field>
+      <field>
+        <name>id_region</name>
+        <rename/>
       </field>
       <field>
         <name>nom_batiment</name>
+        <rename/>
       </field>
       <field>
         <name>type_batiment</name>
+        <rename/>
       </field>
       <field>
         <name>surface_m2</name>
+        <rename/>
       </field>
       <field>
         <name>annee_construction</name>
+        <rename/>
       </field>
       <field>
-        <name>ville</name>
+        <name>date_rapport</name>
+        <rename/>
+      </field>
+      <field>
+        <name>emission_CO2_kg</name>
+        <rename/>
+      </field>
+      <field>
+        <name>taux_recyclage</name>
+        <rename/>
+      </field>
+      <field>
+        <name>nom_region</name>
+        <rename/>
+      </field>
+      <field>
+        <name>date_mesure</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
         <name>id_batiment</name>
-        <rename>code_batiment</rename>
+        <rename>id_batiment</rename>
         <type>None</type>
-        <length>6</length>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>year_mesure</name>
+        <rename>year_mesure</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>0</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>month_mesure</name>
+        <rename>month_mesure</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>0</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>day_mesure</name>
+        <rename>day_mesure</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>0</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>total_eau_m3</name>
+        <rename>total_eau_m3</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>3</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>total_electricite_kwh</name>
+        <rename>total_electricite_kwh</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>total_gaz_L</name>
+        <rename>total_gaz_L</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>3</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>id_region</name>
+        <rename>id_region</rename>
+        <type>None</type>
+        <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -698,8 +1270,8 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>ville</name>
-        <rename>ville</rename>
+        <name>date_rapport</name>
+        <rename>date_rapport</rename>
         <type>None</type>
         <length>-2</length>
         <precision>-2</precision>
@@ -714,46 +1286,29 @@
         <currency_symbol/>
         <storage_type/>
       </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values 2</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>id_region</name>
-      </field>
-      <field>
-        <name>nom_region</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
       <meta>
-        <name>id_region</name>
-        <rename>code_region</rename>
+        <name>emission_CO2_kg</name>
+        <rename>emission_CO2_kg</rename>
         <type>None</type>
         <length>-2</length>
-        <precision>-2</precision>
+        <precision>0</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>taux_recyclage</name>
+        <rename>taux_recyclage</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>2</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
         <date_format_locale/>
@@ -782,6 +1337,23 @@
         <currency_symbol/>
         <storage_type/>
       </meta>
+      <meta>
+        <name>date_mesure</name>
+        <rename>date_mesure</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -792,14 +1364,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>176</yloc>
+      <xloc>432</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Stream lookup</name>
-    <type>StreamLookup</type>
+    <name>emission_co2_kg</name>
+    <type>Formula</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -808,23 +1380,15 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <from>dim_region</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>id_region</name>
-        <field>id_region</field>
-      </key>
-      <value>
-        <name>nom_region</name>
-        <rename>ville</rename>
-        <default/>
-        <type>String</type>
-      </value>
-    </lookup>
+    <formula>
+      <field_name>emission_co2_kg</field_name>
+      <formula_string>([total_electricite_kwh] * 0.233) + ([total_gaz_L] * 2.349) + ([total_eau_m3] * 0.000298)
+</formula_string>
+      <value_type>Number</value_type>
+      <value_length>-1</value_length>
+      <value_precision>3</value_precision>
+      <replace_field/>
+    </formula>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -834,14 +1398,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>96</yloc>
+      <xloc>832</xloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Table output</name>
-    <type>TableOutput</type>
+    <name>emission_co2_par_m2</name>
+    <type>Formula</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -850,29 +1414,15 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>exam</connection>
-    <schema>dm_impact_environnemental</schema>
-    <table>dim_batiment</table>
-    <commit>1000</commit>
-    <truncate>Y</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-      <field>
-        <column_name>code_batiment</column_name>
-        <stream_name>code_batiment</stream_name>
-      </field>
-    </fields>
+    <formula>
+      <field_name>emission_co2_par_m2</field_name>
+      <formula_string>([emission_co2_kg] / [surface_m2])
+</formula_string>
+      <value_type>Number</value_type>
+      <value_length>-1</value_length>
+      <value_precision>3</value_precision>
+      <replace_field/>
+    </formula>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -882,521 +1432,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>896</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 2</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>exam</connection>
-    <schema>dm_impact_environnemental</schema>
-    <table>dim_region</table>
-    <commit>1000</commit>
-    <truncate>Y</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-      <field>
-        <column_name>code_region</column_name>
-        <stream_name>code_region</stream_name>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>688</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Table output 3</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>exam</connection>
-    <schema>dm_impact_environnemental</schema>
-    <table>dim_type_energie</table>
-    <commit>1000</commit>
-    <truncate>Y</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>576</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>dim_batiment</name>
-    <type>CsvInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/Batiments_clean.csv</filename>
-    <filename_field/>
-    <rownum_field/>
-    <include_filename>N</include_filename>
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <header>Y</header>
-    <buffer_size>50000</buffer_size>
-    <lazy_conversion>Y</lazy_conversion>
-    <add_filename_result>N</add_filename_result>
-    <parallel>N</parallel>
-    <newline_possible>N</newline_possible>
-    <format>mixed</format>
-    <encoding/>
-    <fields>
-      <field>
-        <name>id_batiment</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>6</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>id_region</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>nom_batiment</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>type_batiment</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>surface_m2</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>-1</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>annee_construction</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>-1</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>created_at</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>29</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>29</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>384</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>dim_region</name>
-    <type>CsvInput</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/Regions_clean.csv</filename>
-    <filename_field/>
-    <rownum_field/>
-    <include_filename>N</include_filename>
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <header>Y</header>
-    <buffer_size>50000</buffer_size>
-    <lazy_conversion>Y</lazy_conversion>
-    <add_filename_result>N</add_filename_result>
-    <parallel>N</parallel>
-    <newline_possible>N</newline_possible>
-    <format>mixed</format>
-    <encoding/>
-    <fields>
-      <field>
-        <name>id_region</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>5</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>nom_region</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>10</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>created_at</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>29</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>updated_at</name>
-        <type>String</type>
-        <format/>
-        <currency>USD</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>29</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>384</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>dim_type_energie</name>
-    <type>DataGrid</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>code_type_energie</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-      <field>
-        <name>nom_type_energie</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-      <field>
-        <name>est_renouvelable</name>
-        <type>Boolean</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-      <field>
-        <name>facteur_emission_co2</name>
-        <type>Number</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-      <field>
-        <name>unite_mesure</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-      <field>
-        <name>source_energie</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-      <field>
-        <name>impact_environnemental</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-    </fields>
-    <data>
-      <line>
-        <item>EAU</item>
-        <item>Eau</item>
-        <item>N</item>
-        <item>0.000298</item>
-        <item>m3</item>
-        <item>Réseau public</item>
-        <item>faible</item>
-      </line>
-      <line>
-        <item>ELEC</item>
-        <item>Électricité</item>
-        <item>N</item>
-        <item>0.233</item>
-        <item>Kwh</item>
-        <item>Mix énergétique</item>
-        <item>Moyen</item>
-      </line>
-      <line>
-        <item>GAZ</item>
-        <item>Gaz</item>
-        <item>N</item>
-        <item>2.349</item>
-        <item>L</item>
-        <item>Gaz naturel</item>
-        <item>Élevé</item>
-      </line>
-    </data>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>384</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Generate_Dates</name>
-    <type>RowGenerator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-    </fields>
-    <limit>1825</limit>
-    <never_ending>N</never_ending>
-    <interval_in_ms>5000</interval_in_ms>
-    <row_time_field>now</row_time_field>
-    <last_time_field>FiveSecondsAgo</last_time_field>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>384</xloc>
-      <yloc>336</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Add_Day_Number</name>
-    <type>Sequence</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <valuename>day_offset</valuename>
-    <use_database>N</use_database>
-    <connection>exam</connection>
-    <schema/>
-    <seqname>SEQ_</seqname>
-    <use_counter>Y</use_counter>
-    <counter_name>day_offset</counter_name>
-    <start_at>0</start_at>
-    <increment_by>1</increment_by>
-    <max_value>1825</max_value>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>528</xloc>
-      <yloc>336</yloc>
+      <xloc>976</xloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1413,14 +1450,14 @@
     </partitioning>
     <failIfNoFile>Y</failIfNoFile>
     <calculation>
-      <field_name>annee</field_name>
-      <calc_type>YEAR_OF_DATE</calc_type>
-      <field_a>baseDate</field_a>
+      <field_name>consommation_energie_kwh</field_name>
+      <calc_type>COPY_FIELD</calc_type>
+      <field_a>total_electricite_kwh</field_a>
       <field_b/>
       <field_c/>
-      <value_type>None</value_type>
+      <value_type>Number</value_type>
       <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
+      <value_precision>3</value_precision>
       <remove>N</remove>
       <conversion_mask/>
       <decimal_symbol/>
@@ -1428,59 +1465,14 @@
       <currency_symbol/>
     </calculation>
     <calculation>
-      <field_name>mois</field_name>
-      <calc_type>MONTH_OF_DATE</calc_type>
-      <field_a>baseDate</field_a>
+      <field_name>consommation_eau_m3</field_name>
+      <calc_type>COPY_FIELD</calc_type>
+      <field_a>total_eau_m3</field_a>
       <field_b/>
       <field_c/>
-      <value_type>None</value_type>
+      <value_type>Number</value_type>
       <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <calculation>
-      <field_name>jour</field_name>
-      <calc_type>DAY_OF_MONTH</calc_type>
-      <field_a>baseDate</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>None</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <calculation>
-      <field_name>semaine</field_name>
-      <calc_type>WEEK_OF_YEAR</calc_type>
-      <field_a>baseDate</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>None</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <calculation>
-      <field_name>trimestre</field_name>
-      <calc_type>QUARTER_OF_DATE</calc_type>
-      <field_a>baseDate</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>None</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
+      <value_precision>3</value_precision>
       <remove>N</remove>
       <conversion_mask/>
       <decimal_symbol/>
@@ -1496,13 +1488,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
-      <yloc>336</yloc>
+      <xloc>1104</xloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Select values 3</name>
+    <name>Select values 2</name>
     <type>SelectValues</type>
     <description/>
     <distribute>Y</distribute>
@@ -1514,33 +1506,62 @@
     </partitioning>
     <fields>
       <field>
-        <name>baseDate</name>
+        <name>taux_recyclage</name>
         <rename/>
       </field>
       <field>
-        <name>annee</name>
+        <name>date_mesure</name>
         <rename/>
       </field>
       <field>
-        <name>mois</name>
+        <name>dim_id_temps</name>
         <rename/>
       </field>
       <field>
-        <name>jour</name>
+        <name>dim_id_region</name>
         <rename/>
       </field>
       <field>
-        <name>semaine</name>
+        <name>dim_id_batiment</name>
         <rename/>
       </field>
       <field>
-        <name>trimestre</name>
+        <name>emission_co2_kg_1</name>
+        <rename>emission_CO2_kg</rename>
+      </field>
+      <field>
+        <name>emission_co2_par_m2</name>
+        <rename/>
+      </field>
+      <field>
+        <name>consommation_energie_kwh</name>
+        <rename/>
+      </field>
+      <field>
+        <name>consommation_eau_m3</name>
         <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
-        <name>baseDate</name>
-        <rename>date_complete</rename>
+        <name>taux_recyclage</name>
+        <rename>taux_recyclage</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>date_mesure</name>
+        <rename>date_mesure</rename>
         <type>None</type>
         <length>-2</length>
         <precision>-2</precision>
@@ -1556,10 +1577,10 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>annee</name>
-        <rename>annee</rename>
+        <name>dim_id_temps</name>
+        <rename>id_temps</rename>
         <type>None</type>
-        <length>-2</length>
+        <length>9</length>
         <precision>0</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -1573,10 +1594,10 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>mois</name>
-        <rename>mois</rename>
+        <name>dim_id_region</name>
+        <rename>id_region</rename>
         <type>None</type>
-        <length>-2</length>
+        <length>9</length>
         <precision>0</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -1590,10 +1611,10 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>jour</name>
-        <rename>jour</rename>
+        <name>dim_id_batiment</name>
+        <rename>id_batiment</rename>
         <type>None</type>
-        <length>-2</length>
+        <length>9</length>
         <precision>0</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
@@ -1607,11 +1628,11 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>semaine</name>
-        <rename>semaine</rename>
+        <name>emission_CO2_kg</name>
+        <rename>emission_CO2_kg</rename>
         <type>None</type>
         <length>-2</length>
-        <precision>0</precision>
+        <precision>3</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
         <date_format_locale/>
@@ -1624,11 +1645,45 @@
         <storage_type/>
       </meta>
       <meta>
-        <name>trimestre</name>
-        <rename>trimestre</rename>
+        <name>emission_co2_par_m2</name>
+        <rename>emission_co2_par_m2</rename>
         <type>None</type>
         <length>-2</length>
-        <precision>0</precision>
+        <precision>3</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>consommation_energie_kwh</name>
+        <rename>consommation_energie_kwh</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>3</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+      <meta>
+        <name>consommation_eau_m3</name>
+        <rename>consommation_eau_m3</rename>
+        <type>None</type>
+        <length>-2</length>
+        <precision>3</precision>
         <conversion_mask/>
         <date_format_lenient>false</date_format_lenient>
         <date_format_locale/>
@@ -1650,13 +1705,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
-      <yloc>336</yloc>
+      <xloc>1104</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Table output 4</name>
+    <name>Table output</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1668,9 +1723,9 @@
     </partitioning>
     <connection>exam</connection>
     <schema>dm_impact_environnemental</schema>
-    <table>dim_temps</table>
+    <table>fait_impact_environnemental</table>
     <commit>1000</commit>
-    <truncate>Y</truncate>
+    <truncate>N</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -1684,10 +1739,6 @@
     <return_keys>N</return_keys>
     <return_field/>
     <fields>
-      <field>
-        <column_name>date_complete</column_name>
-        <stream_name>date_complete</stream_name>
-      </field>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -1698,55 +1749,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1120</xloc>
-      <yloc>336</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Modified JavaScript value</name>
-    <type>ScriptValueMod</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <compatible>N</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>var baseDate = new Date(2024, 0, 1); // January 1, 2024
-baseDate.setDate(baseDate.getDate() + day_offset);
-date_complete = baseDate;
-</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>
-      <field>
-        <name>baseDate</name>
-        <rename>baseDate</rename>
-        <type>Date</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>704</xloc>
-      <yloc>336</yloc>
+      <xloc>1216</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
